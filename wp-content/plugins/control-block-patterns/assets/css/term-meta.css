@@ -1,0 +1,114 @@
+.ctrlbp-field {
+	margin-left: 0;
+	margin-right: 0;
+}
+.ctrlbp-hidden-wrapper {
+	display: none;
+}
+.ctrlbp-heading-wrapper,
+.ctrlbp-divider-wrapper {
+	display: block;
+}
+.ctrlbp-image-select.ctrlbp-image-select {
+	padding: 0;
+}
+.ctrlbp-label,
+.ctrlbp-input {
+	line-height: 1.3;
+}
+.ctrlbp-input:first-of-type {
+	float: none;
+}
+.ctrlbp-label {
+	width: 210px;
+	padding: 14px 10px 14px 0;
+	font-weight: bold;
+	font-size: 14px;
+}
+.ctrlbp-input {
+	padding: 9px 10px;
+	vertical-align: middle;
+}
+.ctrlbp-label ~ .ctrlbp-input {
+	flex: 1;
+}
+@media (max-width: 782px) {
+	.ctrlbp-field {
+		flex-direction: column;
+	}
+	.ctrlbp-input, .ctrlbp-label {
+		display: block;
+		width: auto;
+		vertical-align: middle;
+	}
+	.ctrlbp-label {
+		padding-top: 10px;
+		padding-bottom: 0;
+		border-bottom: 0;
+	}
+	.ctrlbp-input {
+		margin-bottom: 0;
+		padding-bottom: 6px;
+		padding-top: 4px;
+		padding-left: 0;
+	}
+}
+
+/* Fix style when use group and clone */
+.ctrlbp-clone {
+	background-color: transparent;
+}
+.ctrlbp-group-wrapper .ctrlbp-label,
+.ctrlbp-group-wrapper .ctrlbp-input {
+	display: block;
+}
+.ctrlbp-group-wrapper > .ctrlbp-input:first-of-type {
+	padding-left: 220px;
+}
+.ctrlbp-field:not(.ctrlbp-group-wrapper) .ctrlbp-label,
+.ctrlbp-field:not(.ctrlbp-group-wrapper) .ctrlbp-input {
+	float: left;
+}
+.ctrlbp-group-collapsible > .ctrlbp-input > .ctrlbp-group-clone.ctrlbp-group-clone {
+	border-color: #ddd;
+}
+
+/* Add new term screen */
+#addtag .ctrlbp-field {
+	flex-direction: column;
+}
+#addtag .ctrlbp-label,
+#addtag .ctrlbp-input {
+	padding: 0;
+	width: 100%;
+}
+#addtag .ctrlbp-label {
+	margin-bottom: 3px;
+}
+#addtag .ctrlbp-media-view .ctrlbp-media-list {
+	margin-top: 0;
+}
+#addtag .ctrlbp-label.required label {
+	float: left;
+}
+#addtag .ctrlbp-label.required:after {
+	content: " ";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+#addtag .submit {
+	margin-top: 10px;
+}
+#ctrlbp-term-meta-message {
+	margin-top: 20px;
+}
+#the-list ul,
+#the-list ul li{
+	margin: 0;
+}
+#the-list img{
+	width: 36px;
+	height: auto;
+}

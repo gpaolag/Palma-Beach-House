@@ -1,0 +1,13 @@
+.pergo-layout-semirounded.woocommerce div.product .woocommerce-tabs ul.tabs li.active a, 
+.pergo-layout-semirounded.wpb-js-composer .vc_tta-tabs.vc_tta-tabs-position-top.vc_tta-style-pergo .vc_tta-tabs-list .vc_active a,
+.pergo-layout-semirounded.woocommerce div.product .woocommerce-tabs ul.tabs, 
+.pergo-layout-semirounded.wpb-js-composer .vc_tta-tabs.vc_tta-tabs-position-top.vc_tta-style-pergo .vc_tta-tabs-list,
+.pergo-layout-semirounded.woocommerce button.button:disabled, 
+.pergo-layout-semirounded.woocommerce button.button:disabled[disabled], 
+.pergo-layout-semirounded.woocommerce .woocommerce-widget-layered-nav-dropdown__submit, 
+.pergo-layout-semirounded.woocommerce #respond input#submit, 
+.pergo-layout-semirounded.woocommerce a.button, 
+.pergo-layout-semirounded.woocommerce button.button, 
+.pergo-layout-semirounded .woocommerce input.button,
+.pergo-layout-semirounded .portfolio-filter .btn-group > .btn,
+.pergo-layout-semirounded .btn{ border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; }

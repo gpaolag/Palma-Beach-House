@@ -1,0 +1,20 @@
+.ctrlbp-text_list-non-cloneable > .ctrlbp-input,
+.ctrlbp-text_list-clone {
+	display: flex;
+	flex-wrap: wrap;
+}
+.ctrlbp-text_list-non-cloneable > .ctrlbp-input > label,
+.ctrlbp-text_list-clone > label {
+	margin: 0 10px 10px 0;
+	flex: 1;
+}
+.ctrlbp-text_list-non-cloneable > .ctrlbp-input > label:last-child,
+.ctrlbp-text_list-clone > label:last-child {
+	margin-right: 0;
+}
+
+.ctrlbp-text-list-label {
+	font-weight: 600;
+	display: block;
+	margin-bottom: 3px;
+}

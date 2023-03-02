@@ -1,0 +1,49 @@
+/* Make fields vertical layout */
+.ctrlbp-field {
+	flex-direction: column;
+}
+.ctrlbp-label,
+.customize-control .ctrlbp-input {
+	width: 100%;
+}
+.ctrlbp-label {
+	margin-bottom: 4px;
+}
+
+/* Resize remove clone button */
+.ctrlbp-clone {
+	background: none;
+}
+.ctrlbp-button.remove-clone {
+	right: -18px;
+}
+.ctrlbp-button.remove-clone .dashicons {
+	font-size: 14px;
+	width: 14px;
+	height: 14px;
+}
+
+/* Show color picker inline because of overflow: hidden on a parent element */
+.ctrlbp-color-wrapper .wp-picker-holder {
+	position: static;
+}
+/* Always set uploaded images 1/2 width, regardless their size */
+.ctrlbp-image-item.ctrlbp-image-item {
+	width: 50%;
+}
+/* Fix CSS overflow layout with file/image upload field */
+.ctrlbp-upload-inside .moxie-shim {
+	display: none;
+}
+/* Set background dropdowns 100% width to show full placeholder */
+.ctrlbp-background-wrapper .ctrlbp-select {
+	width: 100%;
+	max-width: none;
+}
+.ctrlbp-file_input.ctrlbp-file_input.ctrlbp-file_input {
+	margin-bottom: 4px;
+}
+
+.ctrlbp-devices{
+	margin-bottom: 0;
+}

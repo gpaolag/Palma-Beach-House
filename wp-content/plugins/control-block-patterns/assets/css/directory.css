@@ -1,0 +1,85 @@
+.pattern-grid__pattern-frame .pattern-grid__preview {
+	overflow: hidden;
+	padding-top: 56.25%;
+	position: relative;
+	background: #fff;
+}
+
+.cbp-pattern-preview-frame iframe,
+.pattern-grid__pattern-frame iframe {
+	border: 0;
+	height: 223%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 229%;
+	transform: scale(0.45);
+	transform-origin: left top;
+	pointer-events: none;
+	z-index: 3;
+}
+
+.pattern-grid__preview iframe {
+	pointer-events: auto;
+}
+
+.wp-full-overlay-main iframe {
+	z-index: 3;
+	position: relative;
+}
+
+.theme-browser .theme .theme-screenshot::after {
+	padding: 0;
+}
+
+.theme-id-container {
+	z-index: 2;
+	background-color: #fff;
+}
+
+.cbp-publishing-info li {
+	display: flex;
+	align-items: center;
+	color: #3c434a;
+}
+
+.cbp-publishing-info li > * {
+	padding-right: 8px;
+	color: #8c8f94;
+	width: 16px;
+}
+
+.svg-wrap svg {
+	stroke: #fff;
+	stroke-width: 1;
+	width: 250px;
+}
+
+.svg-wrap svg path {
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation: draw 2s ease infinite alternate;
+}
+
+@keyframes draw {
+
+	0% {
+		stroke-dashoffset: 0;
+	}
+}
+
+/* PRESENTATION STYLES */
+.svg-wrap {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #0073aa;
+	z-index: 2;
+	color: #fff;
+}

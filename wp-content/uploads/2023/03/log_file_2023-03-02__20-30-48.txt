@@ -1,0 +1,47 @@
+
+---Downloaded files---
+The import files for: 09 - Innovation Agency were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/Palma-Beach-House
+Data file = C:\xampp\htdocs\Palma-Beach-House/wp-content/uploads/2023/03/demo-content-import-file_2023-03-02__20-30-48.xml
+Widget file = C:\xampp\htdocs\Palma-Beach-House/wp-content/uploads/2023/03/demo-widgets-import-file_2023-03-02__20-30-48.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Main Widget Area : 
+
+Buscar - No Title - Imported
+Categorías - No Title - Imported
+Pergo Recent Posts - No Title - Imported
+Nube de etiquetas - Popular tags - Imported
+Imagen - Image Widget - Imported
+Texto - Text Widget - Imported
+Navegación del menú - Products - Imported
+
+Footer Widget Area 1 : 
+
+Pergo About us - PERGO. - Imported
+
+Footer Widget Area 2 : 
+
+Navegación del menú - Products - Imported
+
+Footer Widget Area 3 : 
+
+Navegación del menú - Company - Imported
+
+Footer Widget Area 4 : 
+
+Navegación del menú - Resources - Imported
+
+
+
+---ocdi/after_import---
+

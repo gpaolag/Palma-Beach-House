@@ -1,0 +1,369 @@
+1.7.5 - 26th September, 2021
+Changelog:
+1. Email subcriber issues fixed
+2. CSS fixed
+
+1.7.4 - 16th September, 2021
+Changelog:
+1. Theme required plugins updated
+2. Demo data updated
+3. Responsive issue fixed
+4. CSS fixed
+
+1.7.2=3 - 28th August, 2021
+Changelog:
+1. Woocommerce template files updated
+2. CSS fixed
+
+1.7.2 - 28th August, 2021
+Changelog:
+1. Woocommerce template files updated
+2. CSS fixed
+
+1.7.2 - 27th July, 2021
+Changelog:
+1. Theme required plugins updated
+2. WP 5.8 compatible issues fixed
+3. JS fixed
+4. CSS fixed
+
+1.7.1 - 11th May, 2021
+Changelog:
+1. Theme required plugins updated
+2. Convertplug plugins updated
+3. Revslider Updated
+4. CSS fixed
+
+1.7.0 - 18th March, 2021
+Changelog:
+1. Revslider Updated
+2. CSS fixed
+
+1.6.9 - 24th February, 2021
+Changelog:
+1. Theme required plugins updated
+2. JS Composer plugins updated
+3. Revslider Updated
+4. CSS fixed
+
+1.6.8 - 14th January, 2021
+Changelog:
+1. Theme required plugins updated
+2. CSS fixed
+
+1.6.7 - 31th December, 2020
+Changelog:
+1. Theme required plugins updated
+2. Convertplug plugins updated
+3. Revslider Updated
+4. CSS fixed
+
+1.6.6 - 22th December, 2020
+Changelog:
+1. Theme required plugins updated
+2. Google-map updated
+3. JS Composer plugins updated.
+4. CSS fixed
+
+1.6.5 - 01th December, 2020
+Changelog:
+1. Theme required plugins updated
+2. Convertplug plugins updated
+3. JS Composer plugins updated.
+4. CSS fixed
+
+1.6.4 - 05th November, 2020
+Changelog:
+1. Responsive issue fixed
+2. Woocommerce template files updated
+3. CSS fixed
+
+1.6.3 - 30th September, 2020
+Changelog:
+1. Theme required plugins updated
+2. CSS fixed
+
+1.6.2 - 3rd September, 2020
+Changelog:
+1. Preloader background options added
+2. Theme required plugins updated
+3. CSS fixed
+
+1.6.1 - 27th August, 2020
+Changelog:
+1. Theme required plugins updated
+2. Theme required plugins updated
+3. evslider plugin updated
+4. CSS fixed
+
+1.6.0 - 26th August, 2020
+Changelog:
+1. WPBakery elements updated
+2. Image alt field added
+3. CSS fixed
+
+1.5.9 - 21th August, 2020
+Changelog:
+1. WPBakery Page Builder update
+2. Revslider plugin updated
+3. JS console issues fixed
+4. Option tree updated
+5. CSS fixed
+
+1.5.8 - 20th August, 2020
+Changelog:
+1. WP 5.5 js issues fixed
+2. CSS issues fixed
+
+1.5.7 - 13th August, 2020
+Changelog:
+1. WP 5.5 compatibility issues fixed
+2. Product category issues
+3. Theme required plugins updated
+4. CSS fixed
+
+1.5.6 - 7th June, 2020
+Changelog:
+1. Product category issues fixed
+2. CSS fixed
+
+1.5.5 - 22th April, 2020
+Changelog:
+1. Theme required plugin updated
+2. CSS fixed
+
+1.5.4 - 22th March, 2020
+Changelog:
+1. Convert plus plugin Updated
+2. Woocommerce template files updated
+3. CSS fixed
+
+1.5.3 - 6th February, 2020
+Changelog:
+1. Slider Revolution Updated
+2. Woocommerce template files updated
+3. Required plugin updated
+4. JS fixed
+
+1.5.2 - 9th January, 2020
+Changelog:
+1. JS Composer plugin updated.
+2. Backtotop on-off options added
+3. Video popup options added in post
+4. JS files updated
+5. CSS fixed
+
+1.5.1 - 7th December, 2019
+Changelog:
+1. Newsletter bugs fixed
+2. CSS fixed
+
+1.5.0 - 12th November, 2019
+Changelog:
+1. Portfolio Single updated
+2. Team Single updated
+3. Newsletter updated
+4. Single post, portfolio title tag options added
+5. CSS fixed
+
+1.4.9 - 29th August, 2019
+Changelog:
+1. WooCommerce issu fixed
+2. CSS fixed
+
+
+1.4.8 - 8th August, 2019
+Changelog:
+1. Navbar right menu option added for Navbar
+2. Responsive toogler button bug fixed
+3. CSS fixed
+4. JS files updated
+
+1.4.7 - 5th August, 2019
+Changelog:
+1. Menu issues fixed
+2. Single column testimonial slider hover issues fixed
+3. CSS fixed
+4. JS files updated
+
+1.4.6 - 23th July, 2019
+Changelog:
+1. PHP error fixed
+
+1.4.5 - 22th July, 2019
+Changelog:
+1. List tab added
+2. Testimonial Single added
+3. Process Group added
+4. CSS issue fixed
+5. JS Composer Updated
+
+1.4.4 - 13th July, 2019
+Changelog:
+1. Service box typography issues fixed
+2. CSS issue fixed
+
+1.4.3 - 12th July, 2019
+Changelog:
+1. VC element typography issues fixed
+2. VC element updated
+3. CSS issue fixed
+
+1.4.2 - 8th July, 2019
+Changelog:
+1. Tag & size options added in typography options
+2. H1 tag option added in hero elements
+3. Navbar style 2 PHP bug fixed
+4. CSS issue fixed
+
+1.4.1 - 1st July, 2019
+Changelog:
+1. Demo Data import issues fixed
+2. H1 tag option added
+3. Page header background issues fixed
+4. CSS issue fixed
+
+1.4.0 - 30th May, 2019
+Changelog:
+1. Responsive issue fixed .
+2. Demo Data updated .
+3. CSS issue fixed .
+4. JS issue fixed .
+
+1.3.9 - 22th May, 2019
+Changelog:
+1. JS Composer Fatal issue fixed .
+
+1.3.8 - 17th May, 2019
+Changelog:
+1. Portfolio popup gallery option added
+2. Responsive logo options added
+3. Visual Composer & convertplug pluns updated
+4. JS file updated
+5. RTL CSS fixed
+7. CSS fixed
+
+1.3.7 - 18th April, 2019
+Changelog:
+1. Portfolio Carousel added
+2. Image alt bug fixed
+3. Woocommerce template files updated
+4. JS file updated
+5. RTL Supported
+7. CSS fixed
+
+1.3.6 - 9th April, 2019
+Changelog:
+1. Post Carousel added
+2. Post Isotope added
+3. Team Carousel added
+4. Woocommerce Quantity fields updated
+5. JS file updated
+6. PLugins updated
+7. CSS fixed
+
+1.3.5 - 13th March, 2019
+Changelog:
+1. Gutenberg optimized
+2. Email subscriber form issues fixed
+3. Woocommerce issues updated
+4. background Color variation added in startup-1 hero form
+5. Product Carousel templates added
+6. Single portfolio spacing options added
+7. Demo data updated
+8. Plugins updated
+9. CSS fixed
+10. JS file updated
+
+1.3.4 - 09th March, 2019
+Changelog:
+1. Gutenberg optimized
+2. Email subscriber form issues fixed
+3. Woocommerce issues updated
+4. background Color variation added in startup-1 hero form
+5. Product Carousel templates added
+6. CSS fixed
+7. JS file updated
+
+1.3.3 - 28th February, 2019
+Changelog:
+1. Footer quickform auto height issues fixed
+2. Navbar right info text color issues fixed
+3. Link target options, additional color added in Navbar right info
+4. Theme required plugin options make child theme supported
+5. W3C validated issues fixed
+6. CSS fixed
+7. JS file updated
+
+1.3.2 - 17th january, 2019
+Changelog:
+1. WPBakery Page Builder plugin updated
+2. Parent menu is now clickable in Hover menu
+3. Theme options updated
+4. CSS fixed
+5. JS file updated
+
+1.3.1 - 15th january, 2019
+Changelog:
+1. Service box title link options added
+2. Card box image & title link option added
+3. Single portfolio image popup options added
+4. Single product image popup added
+5. Testimonial carousel control added
+6. Discount banner typography options added
+7. Discount banner background color options added
+8. Single slide item bug fixed
+9. 'pergo/recognized_font_families' filter added for custom typography
+10. Lead text is now supported multiple lines
+11. Our skills  section typography options added
+11. FAQ typography options added
+12. JS file updated
+13. CSS fixed
+
+1.3.0 - 12th December, 2018
+Changelog:
+1. Single team page updated
+
+2. Member information display option added in single team
+
+3. Single portfolio page updated,
+
+4. Single portfolio display option added in single team
+
+5. Social icons color/grey option added in theme options for blog & portfolio
+6. Pergo extended plugins included for typography options
+7. Menu & submenu typography options added in theme options
+8. Our clients link option added
+9. Fontawesome icon added in Service box element 
+10. Vimeo video popup isssues fixed
+11. Custom typography & highlight text options added Some of elements
+	'pergo_slide_item', 
+        'pergo_hero_slide',
+        'pergo_service_box', 
+        'pergo_hero_startup', 
+        'pergo_hero_web_design_agency', 
+        'pergo_hero_business_agency',  
+        'pergo_hero_startup1',  
+        'pergo_hero_business_consultancy',  
+        'pergo_hero_app_showcase',  
+        'pergo_hero_freelancer1',  
+        'pergo_hero_marketing_agency',  
+        'pergo_hero_creative_business',  
+        'pergo_hero_digital_agency',  
+        'pergo_hero_branding_agency',  
+        'pergo_hero_freelancer2',  
+        'pergo_hero_startup2',  
+        'pergo_hero_classic_business',  
+        'pergo_hero_medical_health',  
+        'pergo_inner_content', 
+        'pergo_bring_ideas',
+        'pergo_card_box',
+12. Admin jquery issues fixed
+13. CSS fixed
+
+1.2.6 - 10th December, 2018
+Changelog:
+1. Subscription form fixed
+2. WordPress 5.0 compatitable
+3. Guttenberg compatitable
+4. CSS fixed

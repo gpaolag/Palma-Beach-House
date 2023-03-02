@@ -1,0 +1,17 @@
+.ctrlbp-media-list {
+	margin: 0;
+	overflow: hidden;
+}
+.ctrlbp-edit-media,
+.ctrlbp-remove-media {
+	color: inherit;
+	text-decoration: none;
+}
+.ctrlbp-edit-media:after {
+	content: "|";
+	color: #dcdcde;
+	margin: 0 6px;
+}
+.ctrlbp-remove-media {
+	color: #b32d2e;
+}

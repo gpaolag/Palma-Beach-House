@@ -1,0 +1,89 @@
+@import "01-settings/file-header";
+@import "00-grid/functions";
+@import "00-grid/variables";
+@import "00-grid/maps";
+
+@import "00-grid/mixins/lists";
+@import "00-grid/mixins/reset-text";
+@import "00-grid/mixins/border-radius";
+@import "00-grid/mixins/box-shadow";
+@import "00-grid/mixins/buttons";
+@import "00-grid/mixins/breakpoints";
+@import "00-grid/mixins/container";
+@import "00-grid/mixins/grid";
+@import "00-grid/mixins/transition";
+@import "00-grid/mixins/gradients";
+@import "00-grid/mixins/utilities";
+@import "00-grid/vendor/rfs";
+
+@import "00-grid/utilities";
+// Only use the utilities we need
+// stylelint-disable-next-line scss/dollar-variable-default
+$utilities: map-get-multiple(
+  $utilities,
+  (
+    "rounded",
+    "rounded-top",
+    "rounded-bottom",
+    "rounded-end",
+    "rounded-start",
+    "gradient",
+    "background-color",
+    "text-opacity",
+    "color",
+    "text-align",
+    "font-size",
+    "font-weight",
+    'border'
+  )
+);
+
+@import "00-grid/utilities/api";
+
+.ctrlbp-admin-theme{
+    .ctrlbp-settings-wrap{
+        background-color: var(--#{$variable-prefix}white);
+        border: 1px solid var(--#{$variable-prefix}gray-300);
+    }
+    &.ctrlbp-settings-tabs-left{
+        h2.nav-tab-wrapper{
+            border: none;
+            background-color: var(--#{$variable-prefix}gray-900);
+            .nav-tab{
+                background-color: var(--#{$variable-prefix}gray-900);
+                border-bottom: 1px solid var(--#{$variable-prefix}gray-800);
+                color: var(--#{$variable-prefix}gray-100);
+                position: relative;
+                transition: all .1s ease-in-out;
+                &.nav-tab-active{
+                    color: var(--#{$variable-prefix}white);
+                    background-color: var(--#{$variable-prefix}primary);
+                    border-left: none;
+                    padding-left: 12px;
+                    font-weight: bold;
+                    &:after{
+                        right: 0;
+                        border: solid 8px transparent;
+                        border-right-color: transparent;
+                        content: " ";
+                        height: 0;
+                        width: 0;
+                        position: absolute;
+                        pointer-events: none;
+                        border-right-color: var(--#{$variable-prefix}white);
+                        top: 50%;
+                        margin-top: -8px;
+                    }
+                }
+                &:focus{
+                    outline: none;
+                }
+            }
+            
+        }
+        .ctrlbp-settings-form-wrap{
+            padding: 30px 20px;
+        }
+    } 
+}
+

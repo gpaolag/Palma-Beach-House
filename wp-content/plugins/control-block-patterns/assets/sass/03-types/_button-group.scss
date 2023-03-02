@@ -1,0 +1,79 @@
+.ctrlbp-button-input-list {
+	margin: 0;
+	display:  inline-block;
+}
+.ctrlbp-button-input-list li {
+	margin-bottom: 0;
+	list-style: none;
+}
+.ctrlbp-button-input-list .ctrlbp-on_off,
+.ctrlbp-button-input-list .ctrlbp-button_group {
+	display: none;
+}
+.ctrlbp-button-input-list li label {
+	display: block;
+	border: #ccc solid 1px;
+	position: relative;
+	z-index: 1;
+	padding: 5px 10px;
+	background: #fff;
+}
+.ctrlbp-button-input-list li label.selected {
+	border-color: #0073aa;
+	background: #0073aa;
+	color: #fff;
+	z-index: 2;
+}
+
+  
+.ctrlbp-on-off .ctrlbp-button-input-list li:last-child label.selected{
+	background-color: #a00;
+	border-color: #a00;
+  }
+/* Layout not inline
+-------------------------------------------------*/
+.ctrlbp-button-input-list:not(.ctrlbp-inline) li label {
+	 border-top-width: 0;
+}
+.ctrlbp-button-input-list:not(.ctrlbp-inline) li:first-child label {
+	border-top-width: 1px;
+}
+.ctrlbp-button-input-list:not(.ctrlbp-inline) li label.selected {
+	border-bottom: 1px solid #fff;
+}
+.ctrlbp-button-input-list:not(.ctrlbp-inline) li:last-child label.selected {
+	border-bottom-color: #0073aa;
+}
+.ctrlbp-button-input-list:not(.ctrlbp-inline) > li:first-child:not(:last-child) label {
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.ctrlbp-button-input-list:not(.ctrlbp-inline)  > li:last-child:not(:first-child) label {
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+/*  Layout inline
+---------------------------------------------*/
+.ctrlbp-button-input-list.ctrlbp-inline li {
+	display: inline-block;
+}
+.ctrlbp-button-input-list.ctrlbp-inline li label {
+	border-left-width: 0;
+}
+.ctrlbp-button-input-list.ctrlbp-inline li:first-child label {
+	border-left-width: 1px;
+}
+.ctrlbp-button-input-list.ctrlbp-inline li label.selected {
+	border-right-color: rgb(255, 255, 255);
+}
+.ctrlbp-button-input-list.ctrlbp-inline li:last-child label.selected {
+	border-right-color: #0073aa;
+}
+.ctrlbp-button-input-list.ctrlbp-inline > li:first-child:not(:last-child) label {
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.ctrlbp-button-input-list.ctrlbp-inline > li:last-child:not(:first-child) label {
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}

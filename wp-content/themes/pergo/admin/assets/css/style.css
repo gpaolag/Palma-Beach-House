@@ -1,0 +1,353 @@
+.ocdi__intro-text mark.yes{
+  color: #7ad03a;
+}
+.ocdi__intro-text mark.no{
+  color: #a00;
+}
+
+.ocdi__intro-text mark{background-color: transparent;}
+.customize-control-radio-image .image{}
+.customize-control-radio-image .image input{}
+.radio-image-half-wrap .option-tree-ui-radio-images{
+    float: left !important;
+    max-width: 47%;
+    min-height: 125px;
+}
+.wpb_vc_single_image .attachment-thumbnail {
+    max-width: 120px !important;
+    background-image: none !important;
+    width: 100% !important;
+    height: auto !important;
+    float: none !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  padding: 0 10% 20px !important;
+}
+.wpb_content_element.pergo-vc .wpb_element_title{
+    overflow: hidden;
+    margin-bottom: 15px !important;
+    vertical-align: middle;
+    line-height: 32px;
+}
+.pergo-vc .vc_admin_label{
+  font-style: normal;
+}
+.pergo-vc .vc_admin_label label{
+  font-size: 1em;
+}
+.pergo-vc .admin_label_title.vc_admin_label{
+  display: block;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-style: normal;
+}
+.vc_col-sm-6 .pergo-vc .admin_label_title.vc_admin_label{
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+.vc_col-sm-4 .pergo-vc .admin_label_title.vc_admin_label{
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+.vc_col-sm-3 .pergo-vc .admin_label_title.vc_admin_label{
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.pergo-vc .admin_label_subtitle.vc_admin_label{
+  display: block;
+  font-weight: normal;
+  font-size: 1em;
+  margin-bottom: 10px;
+  font-style: normal;
+}
+
+.pergo-vc .admin_label_content.vc_admin_label{
+   display: block;
+  font-weight: normal;
+  font-size: .9em;
+  margin-bottom: 10px;
+  font-style: normal;
+}
+.pergo-vc .admin_label_name.vc_admin_label{
+  display: block;
+  font-weight: normal;
+  font-size: .8em;
+  margin-top: 10px;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+.wpb_vc_section .vc_section-bottom-controls .vc_column-add{color: #42a045 !important;}
+.wpb_vc_section > .vc_controls > span .vc_column-edit{background-color: #42a045 !important; color: #fff;}
+.wpb_vc_row .vc_control-column.bottom-controls .vc_column-add{color: #1e88e5 !important;}
+.wpb_vc_row > .vc_controls > span .vc_column-edit{background-color: #1e88e5 !important; color: #fff;}
+.pergo-vc.wpb_sortable > .vc_controls > .column_edit{background-color: #ff3366; color: #fff; padding: 5px  7px;}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.wp-picker-container input[type="text"].wp-color-picker{
+  display: block;
+}
+.widefat th.column-featured_image,
+.column-featured_image{
+   width: 105px;
+}
+.widefat td.column-featured_image{
+  text-align: center;
+}
+.column-featured_image img{
+  width: 60px;
+}
+.vc_element-icon.pergo-icon{
+   background-image: url("../images/vc-icon.png");
+    background-position: center center;
+    background-size: 30px auto;
+}
+.vc_element-icon.pergo-hero-icon[data-is-container="true"],
+.vc_element-icon.pergo-hero-icon{
+  background-image: url("../images/vc-hero.png");
+  background-position: left center;
+  background-size: 28px auto;
+}
+
+.vc_element-icon.pergo-icon[data-is-container="true"]{
+  background-position: center center;
+}
+
+.vc_add-element-container .wpb-content-layouts a.pergo-vc_nav{
+  font-size: 13px;
+  padding-left: 40px;
+}
+
+#option-tree-options-layouts-form{
+  top: 56px!important;
+}
+
+.pergo-shortcode-field{
+	width: 100%;
+	clear: both;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.pergo-shortcode-field label{
+	float: left;
+	width: 35%;
+	padding-bottom: 5px;
+}
+
+.pergo-shortcode-field textarea,
+.pergo-shortcode-field input[type="text"]{
+	width: 64%;
+	float: left;
+}
+
+.panel-row-style-wide-grey {
+  background: #F6F6F6;
+  border-top: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+  margin: 0 -20px;
+  padding: 25px 20px;
+}
+.layout-full .panel-row-style-wide-grey {
+  margin: 0 -1000px;
+  padding: 25px 1000px 25px 1000px;
+}
+/*custom option tre css*/
+
+#option-tree-settings-api > .ui-tabs {
+  -webkit-box-shadow: inset 236px 0 0 #f1f1f1, inset 147px 0 0 #ccc, 0 1px 3px rgba(0,0,0,0.05) !important;
+     -moz-box-shadow: inset 236px 0 0 #f1f1f1, inset 147px 0 0 #ccc, 0 1px 3px rgba(0,0,0,0.05) !important;
+          box-shadow: inset 236px 0 0 #f1f1f1, inset 147px 0 0 #ccc, 0 1px 3px rgba(0,0,0,0.05) !important;
+}
+.wrap.settings-wrap .ui-tabs-nav{
+  width: 240px !important;
+}
+.wrap.settings-wrap .ui-tabs-nav.ot-theme-option-nav{
+  width: 100% !important;
+}
+.option-tree-ui-button.button{
+  font-size: 13px !important;
+}
+.wrap.settings-wrap .ui-tabs-nav li a{
+  background-repeat: no-repeat;
+  padding-left: 40px !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  font-size: 14px;
+  font-weight: 600;
+}
+.ot-metabox-tabs.ui-tabs .ot-metabox-nav.ui-tabs-nav{
+  width: 201px !important;
+}
+.ot-metabox-tabs.ui-tabs .ot-metabox-nav.ui-tabs-nav li{
+  width: 200px !important;
+}
+.ot-metabox-tabs.ui-tabs .ot-metabox-nav.ui-tabs-nav li a{
+  font-size: 14px;
+  font-weight: 600;
+}
+.settings-wrap .ui-tabs-nav li a:focus,
+.ui-tabs .ot-metabox-nav.ui-tabs-nav li a:focus{
+  outline: none;
+  box-shadow: none;
+}
+.format-setting .description p{
+  margin-top: -10px;
+}
+
+#tab_404_options a{ background-image: url(../images/404.png); background-position: 12px center; }
+#tab_general_options a{ background-image: url(../images/icon-settings.png); background-position: 12px center; }
+#tab_header_options a{  background-image: url(../images/icon-header.png);  background-position: 12px center;}
+#tab_footer_options a{  background-image: url(../images/icon-footer.png); background-position: 12px center; }
+#tab_background_options a{  background-image: url(../images/background.png); background-position: 12px center; }
+#tab_fonts a{  background-image: url(../images/icon-typography.png); background-position: 12px center; }
+#tab_blog_options a{ background-image: url(../images/blog.png); background-position: 12px center; }
+#tab_portfolio_options a{ background-image: url(../images/icon-portfolio.png); background-position: 12px center; }
+#tab_post_options a{ background-image: url(../images/icon-docs.png); background-position: 12px center; }
+#tab_page_options a{  background-image: url(../images/icon-portfolio.png); background-position: 12px center; }
+#tab_social_options a{ background-image: url(../images/social_links_icon.png); background-position: 12px center; }
+#tab_sidebar_option a{ background-image: url(../images/sidebar.png); background-position: 12px center; }
+#tab_typography a{ background-image: url(../images/icon-typography.gif); background-position: 12px center; }
+#tab_front_options a{   background-image: url(../images/icon-slider.png); background-position: 12px center; }
+#tab_styling_options a{ background-image: url(../images/styling.png); background-position: 12px center; }
+#tab_custom_css a{  background-image: url(../images/css.png); background-position: 12px center; }
+#tab_theme_text a{  background-image: url(../images/extra.png); background-position: 12px center; }
+#tab_woo_options a{  background-image: url(../images/shop.png); background-position: 12px center; }
+.type-radio-image .option-tree-ui-radio-images img{
+  max-width: 60px;
+}
+#product_layout_meta_box .format-setting-inner,
+#product_layout_meta_box .description{
+  width: 100%;
+}
+.ext-menu{
+	display: none;
+}
+#option-tree-header #option-tree-logo a{
+  background: url(../images/logo-alt.png) no-repeat center;
+  text-indent: -999999px;
+    background-repeat: no-repeat;
+  background-position: left center;
+  background-size: auto 40px;
+}
+#option-tree-header #option-tree-logo{
+  padding-left: 25px;
+}
+#adminmenu #toplevel_page_ot-settings .menu-icon-generic div.wp-menu-image::before,
+#option-tree-header #option-tree-logo a::before{
+  content: "" !important;
+}
+#option-tree-header #option-tree-logo a{
+  min-height: 50px;
+  min-width: 171px;
+}
+.option-tree-active-layout{
+  min-width: 175px !important;
+}
+
+#option-tree-options-layouts-form .select-wrapper{
+  width: 100%;
+}
+#option-tree-header #option-tree-version span, 
+#option-tree-header #theme-version span{
+  line-height: 50px !important;
+  min-height: 50px !important;
+  text-transform: uppercase;
+}
+.megamenu_header_top ul,
+.megamenu_outer_wrap .megamenu_header .version,
+.megamenu_outer_wrap .megamenu_header_top,
+.hide-field-wrap{
+  display: none;
+}
+#setting-error-tgmpa{
+  display: block;
+}
+.megamenu_left ul li:last-child{
+  display: none !important;
+}
+#setting_header_style .type-radio-image .option-tree-ui-radio-images{
+  float: none;  
+}
+#setting_header_style .type-radio-image .option-tree-ui-radio-images img{
+  max-width: 95%;
+}
+
+#editor.block-editor__container #pergo_onepage_sttings_boxes,
+#editor.block-editor__container #pergo_onepage_footer_sttings_boxes{display: none !important}
+
+/* -------------------------------------------------- 
+  :: Select
+  ---------------------------------------------------*/
+.select-wrapper {
+  background: #fff url(../images/ot-select.png) no-repeat right center;
+  border: 1px solid #ccc;
+  display: block;
+  float: left;
+  font-size: 12px;
+  height: 29px;
+  margin: 0 5px 5px 0;
+  max-width: 100%;
+  width: auto;
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+  -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.select-wrapper:hover {
+  background-image: url(../images/ot-select-hover.png);
+  border-color: #999;
+}
+select.perch-ui-select {
+  cursor: pointer;
+  filter: alpha(opacity: 0);
+  font-size: 14px;
+  height: 29px;
+  margin: 0;
+  max-width: 100%;
+  -moz-opacity: 0;
+  opacity: 0;
+  padding: 0 !important;
+  position: relative;
+  width: inherit;
+  z-index: 4;
+  min-width: 118px;
+}
+
+select.perch-ui-select option {
+  padding: 3px 15px !important;
+}
+.select-wrapper span {
+  height: 27px;
+  line-height: 27px;
+  overflow: hidden;
+  padding-left: 7px;
+  padding-right: 27px;
+  position: absolute;
+  z-index: 2;
+}
+.select-wrapper {
+  margin: 0px;
+}
+select.perch-ui-select {
+  min-width: 124px;
+}
+.type-measurement select.perch-ui-select {
+  min-width: 73px !important;
+}
+.type-measurement .select-wrapper {
+  margin-right: 0;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+#editor.block-editor__container #pergo_onepage_sttings_boxes,
+#editor.block-editor__container #pergo_onepage_footer_sttings_boxes{display: none !important}

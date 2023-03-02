@@ -1,0 +1,2631 @@
+# Control Block Patterns
+# This file is distributed under the same license as the PACKAGE package.
+# SenseFlame Support <support@senseflame.com>
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: BUG-EMAIL-ADDR <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: yyyy-mm-dd hh:mm+0000\n"
+"PO-Revision-Date: 2021-10-11 15:48+0600\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+
+#: assets/fields-check.php:36 assets/fields-check.php:45
+#: includes/functions-settings-page.php:158
+msgid "Option Types"
+msgstr ""
+
+#: assets/fields-check.php:37
+msgid "Help content goes here!"
+msgstr ""
+
+#: assets/fields-check.php:40
+msgid "Sidebar content goes here!"
+msgstr ""
+
+#: assets/fields-check.php:50
+msgid "Editors"
+msgstr ""
+
+#: assets/fields-check.php:59 classes/attributes/01-general.php:6
+#: includes/functions-admin.php:672
+msgid "General"
+msgstr ""
+
+#: assets/fields-check.php:66 classes/directory/includes/pattern.php:44
+#: includes/functions-admin.php:1776
+msgid "Text"
+msgstr ""
+
+#: assets/fields-check.php:67
+msgid ""
+"The Text option type is used to save string values. For example, any "
+"optional or required text that is of reasonably short character length."
+msgstr ""
+
+#: assets/fields-check.php:81 includes/functions-admin.php:1778
+msgid "Textarea Simple"
+msgstr ""
+
+#: assets/fields-check.php:82
+msgid ""
+"The Textarea Simple option type is a large string value used for custom code "
+"or text in the theme. The Textarea Simple does not have a WYSIWYG editor."
+msgstr ""
+
+#: assets/fields-check.php:96 includes/functions-admin.php:1777
+msgid "Textarea"
+msgstr ""
+
+#: assets/fields-check.php:97
+#, php-format
+msgid ""
+"The Textarea option type is a large string value used for custom code or "
+"text in the theme and has a WYSIWYG editor that can be filtered to change "
+"the how it is displayed. For example, you can filter %1$s, %2$s, %3$s, and "
+"%4$s."
+msgstr ""
+
+#: assets/fields-check.php:111 includes/functions-admin.php:1741
+msgid "Checkbox"
+msgstr ""
+
+#: assets/fields-check.php:112
+msgid ""
+"The Checkbox option type displays a group of choices. It allows the user to "
+"check multiple choices and will return that value as an array for use in a "
+"custom function or loop."
+msgstr ""
+
+#: assets/fields-check.php:126 assets/fields-check.php:189
+#: assets/fields-check.php:241
+msgid "No"
+msgstr ""
+
+#: assets/fields-check.php:131 assets/fields-check.php:184
+#: assets/fields-check.php:236
+msgid "Yes"
+msgstr ""
+
+#: assets/fields-check.php:138 includes/functions-admin.php:1742
+msgid "Colorpicker"
+msgstr ""
+
+#: assets/fields-check.php:139
+msgid ""
+"The Colorpicker option type saves a hexadecimal color code for use in CSS. "
+"Use it to modify the color of something in your theme."
+msgstr ""
+
+#: assets/fields-check.php:153 assets/fields-check.php:154
+#: includes/functions-admin.php:1743
+msgid "Colorpicker Opacity"
+msgstr ""
+
+#: assets/fields-check.php:155
+#, php-format
+msgid ""
+"The Colorpicker Opacity option type saves an rgba color value for use in "
+"CSS. To add opacity to other colorpickers add the %1$s class to the %2$s "
+"array."
+msgstr ""
+
+#: assets/fields-check.php:169 includes/functions-admin.php:1764
+msgid "Radio"
+msgstr ""
+
+#: assets/fields-check.php:170
+msgid ""
+"The Radio option type displays a group of choices. It allows the user to "
+"choose one and will return that value as a string for use in a custom "
+"function or loop."
+msgstr ""
+
+#: assets/fields-check.php:194 assets/fields-check.php:246
+msgid "Maybe"
+msgstr ""
+
+#: assets/fields-check.php:201 includes/functions-admin.php:1765
+msgid "Radio Image"
+msgstr ""
+
+#: assets/fields-check.php:202
+#, php-format
+msgid ""
+"the Radio Images option type is primarily used for layouts. However, you can "
+"filter the image list using %s. As well, you can add your own custom images "
+"using the choices array."
+msgstr ""
+
+#: assets/fields-check.php:216 includes/functions-admin.php:1766
+msgid "Select"
+msgstr ""
+
+#: assets/fields-check.php:217
+msgid ""
+"The Select option type is used to list anything you want that would be "
+"chosen from a select list."
+msgstr ""
+
+#: assets/fields-check.php:231 classes/fields/google-fonts.php:57
+#: classes/fields/google-fonts.php:99
+msgid "-- Choose One --"
+msgstr ""
+
+#: assets/fields-check.php:253 includes/functions-admin.php:1758
+msgid "Numeric Slider"
+msgstr ""
+
+#: assets/fields-check.php:254
+msgid ""
+"The Numeric Slider option type displays a jQuery UI slider. It will return a "
+"single numerical value for use in a custom function or loop."
+msgstr ""
+
+#: assets/fields-check.php:268 includes/functions-admin.php:1759
+msgid "On/Off"
+msgstr ""
+
+#: assets/fields-check.php:269
+#, php-format
+msgid ""
+"The On/Off option type displays a simple switch that can be used to turn "
+"things on or off. The saved return value is either %1$s or %2$s."
+msgstr ""
+
+#: assets/fields-check.php:283
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:94
+#: includes/functions-admin.php:1782
+msgid "Upload"
+msgstr ""
+
+#: assets/fields-check.php:284
+#, php-format
+msgid ""
+"The Upload option type is used to upload any WordPress supported media. "
+"After uploading, users are required to press the \"%1$s\" button in order to "
+"populate the input with the URI of that media. There is one caveat of this "
+"feature. If you import the theme options and have uploaded media on one site "
+"the old URI will not reflect the URI of your new site. You will have to re-"
+"upload or %2$s any media to your new server and change the URIs if necessary."
+msgstr ""
+
+#: assets/fields-check.php:284 classes/Hooks.php:196
+msgid "Insert Media"
+msgstr ""
+
+#: assets/fields-check.php:298
+msgid "Upload Attachment ID"
+msgstr ""
+
+#: assets/fields-check.php:299
+#, php-format
+msgid ""
+"The Upload option type can also be saved as an attachment ID by adding %s to "
+"the class attribute."
+msgstr ""
+
+#: assets/fields-check.php:313 classes/directory/includes/pattern.php:41
+#: includes/functions-admin.php:1750
+msgid "Gallery"
+msgstr ""
+
+#: assets/fields-check.php:314
+msgid ""
+"The Gallery option type saves a comma separated list of image attachment "
+"IDs. You will need to create a front-end function to display the images in "
+"your theme."
+msgstr ""
+
+#: assets/fields-check.php:328
+msgid "Gallery Shortcode"
+msgstr ""
+
+#: assets/fields-check.php:329
+#, php-format
+msgid ""
+"The Gallery option type can also be saved as a shortcode by adding %s to the "
+"class attribute. Using the Gallery option type in this manner will result in "
+"a better user experience as you're able to save the link, column, and order "
+"settings."
+msgstr ""
+
+#: assets/fields-check.php:343
+msgid "Post type"
+msgstr ""
+
+#: assets/fields-check.php:350 includes/functions-admin.php:1739
+msgid "Category Checkbox"
+msgstr ""
+
+#: assets/fields-check.php:351
+msgid ""
+"The Category Checkbox option type displays a list of category IDs. It allows "
+"the user to check multiple category IDs and will return that value as an "
+"array for use in a custom function or loop."
+msgstr ""
+
+#: assets/fields-check.php:365 includes/functions-admin.php:1740
+msgid "Category Select"
+msgstr ""
+
+#: assets/fields-check.php:366
+msgid ""
+"The Category Select option type displays a list of category IDs. It allows "
+"the user to select only one category ID and will return that value for use "
+"in a custom function or loop."
+msgstr ""
+
+#: assets/fields-check.php:380 includes/functions-admin.php:1745
+msgid "Custom Post Type Checkbox"
+msgstr ""
+
+#: assets/fields-check.php:381
+#, php-format
+msgid ""
+"The Custom Post Type Select option type displays a list of IDs from any "
+"available WordPress post type or custom post type. It allows the user to "
+"check multiple post IDs for use in a custom function or loop. Requires at "
+"least one valid %1$s in the %1$s field."
+msgstr ""
+
+#: assets/fields-check.php:395 includes/functions-admin.php:1746
+msgid "Custom Post Type Select"
+msgstr ""
+
+#: assets/fields-check.php:396
+#, php-format
+msgid ""
+"The Custom Post Type Select option type displays a list of IDs from any "
+"available WordPress post type or custom post type. It will return a single "
+"post ID for use in a custom function or loop. Requires at least one valid "
+"%1$s in the %1$s field."
+msgstr ""
+
+#: assets/fields-check.php:410
+msgid "Advanced"
+msgstr ""
+
+#: assets/fields-check.php:417 includes/functions-admin.php:1736
+msgid "Background"
+msgstr ""
+
+#: assets/fields-check.php:418
+#, php-format
+msgid ""
+"The Background option type is for adding background styles to your theme "
+"either dynamically via the CSS option type below or manually with %1$s. The "
+"Background option type has filters that allow you to remove fields or change "
+"the defaults. For example, you can filter %2$s to remove unwanted fields "
+"from all Background options or an individual one. You can also filter %3$s. "
+"These filters allow you to fine tune the select lists for your specific "
+"needs."
+msgstr ""
+
+#: assets/fields-check.php:418 assets/fields-check.php:713
+#: includes/functions-admin.php:3199
+msgid "and"
+msgstr ""
+
+#: assets/fields-check.php:432 includes/functions-admin.php:1737
+msgid "Border"
+msgstr ""
+
+#: assets/fields-check.php:433
+msgid ""
+"The Border option type is used to set width, unit, style, and color values."
+msgstr ""
+
+#: assets/fields-check.php:447 includes/functions-admin.php:1738
+msgid "Box Shadow"
+msgstr ""
+
+#: assets/fields-check.php:448
+#, php-format
+msgid ""
+"The Box Shadow option type is used to set %1$s, %2$s, %3$s, %4$s, %5$s, and "
+"%6$s values."
+msgstr ""
+
+#: assets/fields-check.php:462 includes/functions-admin.php:1747
+msgid "Date Picker"
+msgstr ""
+
+#: assets/fields-check.php:463
+msgid ""
+"The Date Picker option type is tied to a standard form input field which "
+"displays a calendar pop-up that allow the user to pick any date when focus "
+"is given to the input field. The returned value is a date formatted string."
+msgstr ""
+
+#: assets/fields-check.php:477 includes/functions-admin.php:1748
+msgid "Date Time Picker"
+msgstr ""
+
+#: assets/fields-check.php:478
+msgid ""
+"The Date Time Picker option type is tied to a standard form input field "
+"which displays a calendar pop-up that allow the user to pick any date and "
+"time when focus is given to the input field. The returned value is a date "
+"and time formatted string."
+msgstr ""
+
+#: assets/fields-check.php:492 includes/functions-admin.php:1749
+msgid "Dimension"
+msgstr ""
+
+#: assets/fields-check.php:493
+msgid "The Dimension option type is used to set width and height values."
+msgstr ""
+
+#: assets/fields-check.php:507 includes/functions-admin.php:1751
+msgid "Google Fonts"
+msgstr ""
+
+#: assets/fields-check.php:508
+#, php-format
+msgid ""
+"The Google Fonts option type will dynamically enqueue any number of Google "
+"Web Fonts into the document %1$s. As well, once the option has been saved "
+"each font family will automatically be inserted into the %2$s array for the "
+"Typography option type. You can further modify the font stack by using the "
+"%3$s filter, which is passed the %4$s, %5$s, and %6$s parameters. The %6$s "
+"parameter is being passed from %7$s, so it will be the ID of a Typography "
+"option type. This will allow you to add additional web safe fonts to "
+"individual font families on an as-need basis."
+msgstr ""
+
+#: assets/fields-check.php:529 includes/functions-admin.php:1755
+msgid "Link Color"
+msgstr ""
+
+#: assets/fields-check.php:530
+msgid "The Link Color option type is used to set all link color states."
+msgstr ""
+
+#: assets/fields-check.php:545 includes/functions-admin.php:1757
+msgid "Measurement"
+msgstr ""
+
+#: assets/fields-check.php:546
+#, php-format
+msgid ""
+"The Measurement option type is a mix of input and select fields. The text "
+"input excepts a value and the select lets you choose the unit of measurement "
+"to add to that value. Currently the default units are %1$s, %2$s, %3$s, and "
+"%4$s. However, you can change them with the %5$s filter."
+msgstr ""
+
+#: assets/fields-check.php:560 includes/functions-admin.php:1760
+msgid "Page Checkbox"
+msgstr ""
+
+#: assets/fields-check.php:561
+msgid ""
+"The Page Checkbox option type displays a list of page IDs. It allows the "
+"user to check multiple page IDs for use in a custom function or loop."
+msgstr ""
+
+#: assets/fields-check.php:575 includes/functions-admin.php:1761
+msgid "Page Select"
+msgstr ""
+
+#: assets/fields-check.php:576
+msgid ""
+"The Page Select option type displays a list of page IDs. It will return a "
+"single page ID for use in a custom function or loop."
+msgstr ""
+
+#: assets/fields-check.php:590 includes/functions-admin.php:1762
+msgid "Post Checkbox"
+msgstr ""
+
+#: assets/fields-check.php:591
+msgid ""
+"The Post Checkbox option type displays a list of post IDs. It allows the "
+"user to check multiple post IDs for use in a custom function or loop."
+msgstr ""
+
+#: assets/fields-check.php:605 includes/functions-admin.php:1763
+msgid "Post Select"
+msgstr ""
+
+#: assets/fields-check.php:606
+msgid ""
+"The Post Select option type displays a list of post IDs. It will return a "
+"single post ID for use in a custom function or loop."
+msgstr ""
+
+#: assets/fields-check.php:620 includes/functions-admin.php:1767
+msgid "Sidebar Select"
+msgstr ""
+
+#: assets/fields-check.php:621
+#, php-format
+msgid ""
+"This option type makes it possible for users to select a WordPress "
+"registered sidebar to use on a specific area. By using the two provided "
+"filters, %1$s, and %2$s we can be selective about which sidebars are "
+"available on a specific content area."
+msgstr ""
+
+#: assets/fields-check.php:621
+#, php-format
+msgid ""
+"For example, if we create a WordPress theme that provides the ability to "
+"change the Blog Sidebar and we don't want to have the footer sidebars "
+"available on this area, we can unset those sidebars either manually or by "
+"using a regular expression if we have a common name like %s."
+msgstr ""
+
+#: assets/fields-check.php:635 includes/functions-admin.php:1770
+msgid "Spacing"
+msgstr ""
+
+#: assets/fields-check.php:636
+msgid ""
+"The Spacing option type is used to set spacing values such as padding or "
+"margin in the form of top, right, bottom, and left."
+msgstr ""
+
+#: assets/fields-check.php:650 includes/functions-admin.php:1772
+msgid "Tag Checkbox"
+msgstr ""
+
+#: assets/fields-check.php:651
+msgid ""
+"The Tag Checkbox option type displays a list of tag IDs. It allows the user "
+"to check multiple tag IDs and will return that value as an array for use in "
+"a custom function or loop."
+msgstr ""
+
+#: assets/fields-check.php:665 includes/functions-admin.php:1773
+msgid "Tag Select"
+msgstr ""
+
+#: assets/fields-check.php:666
+msgid ""
+"The Tag Select option type displays a list of tag IDs. It allows the user to "
+"select only one tag ID and will return that value for use in a custom "
+"function or loop."
+msgstr ""
+
+#: assets/fields-check.php:680 includes/functions-admin.php:1774
+msgid "Taxonomy Checkbox"
+msgstr ""
+
+#: assets/fields-check.php:681
+msgid ""
+"The Taxonomy Checkbox option type displays a list of taxonomy IDs. It allows "
+"the user to check multiple taxonomy IDs and will return that value as an "
+"array for use in a custom function or loop."
+msgstr ""
+
+#: assets/fields-check.php:695 includes/functions-admin.php:1775
+msgid "Taxonomy Select"
+msgstr ""
+
+#: assets/fields-check.php:696
+msgid ""
+"The Taxonomy Select option type displays a list of taxonomy IDs. It allows "
+"the user to select only one taxonomy ID and will return that value for use "
+"in a custom function or loop."
+msgstr ""
+
+#: assets/fields-check.php:712 includes/functions-admin.php:1781
+msgid "Typography"
+msgstr ""
+
+#: assets/fields-check.php:713
+#, php-format
+msgid ""
+"The Typography option type is for adding typography styles to your theme "
+"either dynamically via the CSS option type above or manually with %1$s. The "
+"Typography option type has filters that allow you to remove fields or change "
+"the defaults. For example, you can filter %2$s to remove unwanted fields "
+"from all Background options or an individual one. You can also filter %3$s. "
+"These filters allow you to fine tune the select lists for your specific "
+"needs."
+msgstr ""
+
+#: assets/fields-check.php:728
+msgid "Group & List Items"
+msgstr ""
+
+#: assets/fields-check.php:734 includes/functions-admin.php:1768
+msgid "Slider"
+msgstr ""
+
+#: assets/fields-check.php:749 includes/functions-admin.php:1756
+msgid "List Item"
+msgstr ""
+
+#: assets/fields-check.php:750
+msgid ""
+"The List Item option type allows for a great deal of customization. You can "
+"add settings to the List Item and those settings will be displayed to the "
+"user when they add a new List Item. Typical use is for creating sliding "
+"content or blocks of code for custom layouts."
+msgstr ""
+
+#: assets/fields-check.php:764 assets/fields-check.php:824
+#: classes/Directory.php:172 includes/functions-admin.php:3336
+msgid "Content"
+msgstr ""
+
+#: assets/fields-check.php:780 includes/functions-admin.php:1769
+msgid "Social Links"
+msgstr ""
+
+#: assets/fields-check.php:781
+#, php-format
+msgid ""
+"The Social Links option type utilizes a drag & drop interface to create a "
+"list of social links. There are a few filters that make extending this "
+"option type easy. You can set the %1$s filter to %2$s and turn off loading "
+"default values. Use the %3$s filter to change the default values that are "
+"loaded. To filter the settings array use the %4$s filter."
+msgstr ""
+
+#: assets/fields-check.php:795
+msgid "Group Item"
+msgstr ""
+
+#: assets/fields-check.php:796
+msgid ""
+"The Group Item option type allows for a great deal of customization. You can "
+"add settings to the List Item and those settings will be displayed to the "
+"user when they add a new List Item. Typical use is for creating sliding "
+"content or blocks of code for custom layouts."
+msgstr ""
+
+#: assets/fields-check.php:810 classes/MetaBox.php:273
+#: classes/Settings.php:612 includes/functions-admin.php:3320
+#: includes/functions-admin.php:3405 includes/functions-admin.php:3572
+msgid "Title"
+msgstr ""
+
+#: assets/fields-check.php:840
+msgid "HTML"
+msgstr ""
+
+#: assets/fields-check.php:855 includes/functions-admin.php:1744
+#: includes/settings/control-css.php:36
+msgid "CSS"
+msgstr ""
+
+#: assets/fields-check.php:856
+#, php-format
+msgid ""
+"The CSS option type is a textarea that when used properly can add dynamic "
+"CSS to your theme from within ControlBlockPatterns. Unfortunately, due "
+"server limitations you will need to create a file named %1$s at the root "
+"level of your theme and change permissions using %2$s so the server can "
+"write to the file. I have had the most success setting this single file to "
+"%3$s but feel free to play around with permissions until everything is "
+"working. A good starting point is %4$s. When the server can save to the "
+"file, CSS will automatically be updated when you save your Block Patterns "
+"Options."
+msgstr ""
+
+#: assets/fields-check.php:856
+#, php-format
+msgid ""
+"This example assumes you have an option with the ID of %1$s. Which means "
+"this option will automatically insert the value of %1$s into the %2$s when "
+"the Block Patterns Options are saved."
+msgstr ""
+
+#: assets/fields-check.php:872 includes/functions-admin.php:1754
+msgid "JavaScript"
+msgstr ""
+
+#: assets/fields-check.php:873
+#, php-format
+msgid ""
+"The JavaScript option type is a textarea that uses the %s code editor to "
+"highlight your JavaScript and display errors as you type."
+msgstr ""
+
+#: assets/fields-check.php:887 includes/functions-admin.php:1779
+msgid "Textblock"
+msgstr ""
+
+#: assets/fields-check.php:888
+msgid ""
+"The Textblock option type is used only on the Theme Option page. It will "
+"allow you to create & display HTML, but has no title above the text block. "
+"You can then use the Textblock to add a more detailed set of instruction on "
+"how the options are used in your theme. You would never use this in your "
+"themes template files as it does not save a value."
+msgstr ""
+
+#: assets/fields-check.php:902 includes/functions-admin.php:1780
+msgid "Textblock Titled"
+msgstr ""
+
+#: assets/fields-check.php:903
+msgid ""
+"The Textblock Titled option type is used only on the Theme Option page. It "
+"will allow you to create & display HTML, and has a title above the text "
+"block. You can then use the Textblock Titled to add a more detailed set of "
+"instruction on how the options are used in your theme. You would never use "
+"this in your themes template files as it does not save a value."
+msgstr ""
+
+#: classes/AjaxAction.php:82
+msgid "Edit Pattern"
+msgstr ""
+
+#: classes/AjaxAction.php:83
+msgid "Pattern Inserted"
+msgstr ""
+
+#: classes/AjaxAction.php:355
+msgid "Saved Successfully"
+msgstr ""
+
+#: classes/AjaxAction.php:360
+#, php-format
+msgid "Failed to save. Please %s the page & try again"
+msgstr ""
+
+#: classes/Attributes.php:119 classes/Settings.php:270
+#: includes/settings/control-patterns.php:8
+msgid "Control Block Patterns"
+msgstr ""
+
+#: classes/Directory.php:82 classes/directory/includes/pattern-install.php:139
+msgid "Feature Filter"
+msgstr ""
+
+#: classes/Directory.php:83 classes/directory/includes/pattern-install.php:140
+msgid "Find a theme based on specific features."
+msgstr ""
+
+#: classes/Directory.php:115
+#: classes/directory/includes/pattern-install.php:172
+msgid "Find Themes"
+msgstr ""
+
+#: classes/Directory.php:129 classes/directory/pattern-install.php:17
+msgid "Patterns Directory"
+msgstr ""
+
+#: classes/Directory.php:130
+msgid "Directory"
+msgstr ""
+
+#: classes/Directory.php:168
+msgid "Are you sure to reset the template to the default?"
+msgstr ""
+
+#: classes/Directory.php:169
+msgid ""
+"Are you sure to cancel customizing the template? You'll loose all the custom "
+"changes and will use the default template."
+msgstr ""
+
+#: classes/Directory.php:170
+msgid ""
+"You have already customized the template. Please cancel the customization "
+"before selecting another style."
+msgstr ""
+
+#: classes/Directory.php:173
+msgid "Author Name"
+msgstr ""
+
+#: classes/Directory.php:174
+msgid "Author Image"
+msgstr ""
+
+#: classes/Directory.php:175
+msgid "Author Position"
+msgstr ""
+
+#: classes/Directory.php:176
+msgid "Subject and Rating"
+msgstr ""
+
+#: classes/Directory.php:177 classes/directory/includes/pattern.php:38
+#: classes/directory/includes/pattern.php:104
+msgid "Subject"
+msgstr ""
+
+#: classes/Directory.php:178
+msgid "Rating"
+msgstr ""
+
+#: classes/Directory.php:179
+msgid "Review Link"
+msgstr ""
+
+#: classes/Directory.php:196
+msgid "Add New Pattern"
+msgstr ""
+
+#: classes/Directory.php:197
+msgid "Search Patterns"
+msgstr ""
+
+#: classes/Directory.php:198
+msgid "Search Patterns..."
+msgstr ""
+
+#: classes/Directory.php:199
+msgid "Upload Pattern"
+msgstr ""
+
+#: classes/Directory.php:200
+msgid "Back"
+msgstr ""
+
+#: classes/Directory.php:203
+#, php-format
+msgid ""
+"An unexpected error occurred. Something may be wrong with WordPress.org or "
+"this server&#8217;s configuration. If you continue to have problems, please "
+"try the <a href=\"%s\">support forums</a>."
+msgstr ""
+
+#: classes/Directory.php:204
+msgid "https://senseflame.com/support/forums/"
+msgstr ""
+
+#: classes/Directory.php:206
+msgid "Try Again"
+msgstr ""
+
+#: classes/Directory.php:208
+#, php-format
+msgid "Number of Pattern found: %d"
+msgstr ""
+
+#: classes/Directory.php:209 classes/directory/pattern-install.php:97
+msgid "No themes found. Try a different search."
+msgstr ""
+
+#: classes/Directory.php:210 classes/directory/pattern-install.php:227
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:449
+msgid "Collapse Sidebar"
+msgstr ""
+
+#: classes/Directory.php:211
+msgid "Expand Sidebar"
+msgstr ""
+
+#: classes/Directory.php:213
+msgid "Select one or more Theme features to filter by"
+msgstr ""
+
+#: classes/FieldType.php:60
+msgid "Sorry, this field type does not exist"
+msgstr ""
+
+#: classes/Helper.php:29
+msgid "Disable Default Patterns?"
+msgstr ""
+
+#: classes/Helper.php:34
+#, php-format
+msgid "Checked to be unregistered pattern from %1$s pattern category"
+msgstr ""
+
+#: classes/Helper.php:50
+#, php-format
+msgid ""
+"Use %1$s this to selectively remove all %2$s block patterns from the list of "
+"registered block patterns"
+msgstr ""
+
+#: classes/Helper.php:65
+msgctxt "Block pattern category"
+msgid "Buttons"
+msgstr ""
+
+#: classes/Helper.php:66
+msgctxt "Block pattern category"
+msgid "Columns"
+msgstr ""
+
+#: classes/Helper.php:67
+msgctxt "Block pattern category"
+msgid "Gallery"
+msgstr ""
+
+#: classes/Helper.php:68
+msgctxt "Block pattern category"
+msgid "Headers"
+msgstr ""
+
+#: classes/Helper.php:69
+msgctxt "Block pattern category"
+msgid "Text"
+msgstr ""
+
+#: classes/Helper.php:70
+msgctxt "Block pattern category"
+msgid "Query"
+msgstr ""
+
+#: classes/Hooks.php:133 classes/PostType.php:23
+#: includes/functions-admin.php:621 includes/functions-settings-page.php:43
+msgid "Block Patterns"
+msgstr ""
+
+#: classes/Hooks.php:244
+msgid "Block Patterns Settings"
+msgstr ""
+
+#: classes/Hooks.php:245 includes/functions-admin.php:3129
+#: includes/functions-settings-page.php:53
+#: includes/functions-settings-page.php:54
+#: includes/functions-settings-page.php:66
+#: includes/functions-settings-page.php:90
+#: includes/functions-settings-page.php:114
+#: includes/functions-settings-page.php:723
+msgid "Settings"
+msgstr ""
+
+#: classes/Hooks.php:250
+msgid "Options updated."
+msgstr ""
+
+#: classes/Hooks.php:251
+msgid "Options reset."
+msgstr ""
+
+#: classes/Hooks.php:252 includes/functions-settings-page.php:405
+#: includes/functions-settings-page.php:442
+#: includes/functions-settings-page.php:519
+msgid "Save Changes"
+msgstr ""
+
+#: classes/PostType.php:17
+msgctxt "post type name"
+msgid "Block Patterns"
+msgstr ""
+
+#: classes/PostType.php:18
+msgctxt "singular post type name"
+msgid "Block Pattern"
+msgstr ""
+
+#: classes/PostType.php:19 classes/PostType.php:20
+#: classes/fields/list-item.php:67 classes/fields/slider.php:55
+#: classes/fields/social-links.php:152
+msgid "Add New"
+msgstr ""
+
+#: classes/PostType.php:21
+msgid "Edit Block Patterns"
+msgstr ""
+
+#: classes/PostType.php:22
+msgid "New Block Patterns"
+msgstr ""
+
+#: classes/PostType.php:24
+msgid "View Block Patterns"
+msgstr ""
+
+#: classes/PostType.php:25
+msgid "Search Block Patterns"
+msgstr ""
+
+#: classes/PostType.php:26
+msgid "No Block Patterns found"
+msgstr ""
+
+#: classes/PostType.php:27
+msgid "No Block Patterns found in Trash"
+msgstr ""
+
+#: classes/PostType.php:29
+msgctxt "post type menu name"
+msgid "Block Patterns"
+msgstr ""
+
+#: classes/PostType.php:30
+msgid "Filter Block Patterns list"
+msgstr ""
+
+#: classes/PostType.php:31
+msgid "Block Patterns list navigation"
+msgstr ""
+
+#: classes/PostType.php:32
+msgid "Block Patterns list"
+msgstr ""
+
+#: classes/PostType.php:33
+msgid "Attributes"
+msgstr ""
+
+#: classes/PostType.php:34
+msgid "Preview image"
+msgstr ""
+
+#: classes/PostType.php:35
+msgid "Remove preview image"
+msgstr ""
+
+#: classes/PostType.php:36
+msgid "Add preview image"
+msgstr ""
+
+#: classes/PostType.php:62
+msgid "Category"
+msgstr ""
+
+#: classes/PostType.php:72
+msgid "Keywords"
+msgstr ""
+
+#: classes/Settings.php:366
+msgid "Reset Options"
+msgstr ""
+
+#: classes/Tools.php:52 classes/Tools.php:224
+#: includes/functions-settings-page.php:74
+msgid "Export"
+msgstr ""
+
+#: classes/Tools.php:118
+msgid "Block Pattern have been imported successfully!"
+msgstr ""
+
+#: classes/Tools.php:125
+msgid "Choose an exported \".json\" file from your computer:"
+msgstr ""
+
+#: classes/Tools.php:129 classes/Tools.php:225
+#: includes/functions-settings-page.php:70
+msgid "Import"
+msgstr ""
+
+#: classes/Tools.php:132
+#, php-format
+msgid "Import all Reusable blocks (%s)"
+msgstr ""
+
+#: classes/Tools.php:150
+#, php-format
+msgid "Invalid form submit. <a href=\"%s\">Go back</a>."
+msgstr ""
+
+#: classes/Tools.php:158
+#, php-format
+msgid "Invalid file data. <a href=\"%s\">Go back</a>."
+msgstr ""
+
+#: classes/Tools.php:206
+#, php-format
+msgid ""
+"Cannot import the block pattern <strong>%s</strong>. <a href=\"%s\">Go back</"
+"a>."
+msgstr ""
+
+#: classes/Tools.php:226
+msgid "Browse Directory"
+msgstr ""
+
+#: classes/Tools.php:227
+msgid "Working..."
+msgstr ""
+
+#: classes/Widget.php:47
+msgid "Title:"
+msgstr ""
+
+#: classes/Widget.php:51
+msgid "Choose Pattern:"
+msgstr ""
+
+#: classes/Widget.php:66
+msgid "Iframe:"
+msgstr ""
+
+#: classes/attributes/01-general.php:11
+msgid "Display Patterns?"
+msgstr ""
+
+#: classes/attributes/02-patterns.php:6
+msgid "Patterns"
+msgstr ""
+
+#: classes/attributes/02-patterns.php:21
+msgid "Pattern"
+msgstr ""
+
+#: classes/directory/pattern-install.php:35
+msgid "The Theme Installer screen requires JavaScript."
+msgstr ""
+
+#: classes/directory/pattern-install.php:40
+msgid "Filter themes list"
+msgstr ""
+
+#: classes/directory/pattern-install.php:50
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:89
+msgctxt "themes"
+msgid "Latest"
+msgstr ""
+
+#: classes/directory/pattern-install.php:81
+msgid ""
+"If you have marked themes as favorites on WordPress.org, you can browse them "
+"here."
+msgstr ""
+
+#: classes/directory/pattern-install.php:84
+msgid "Your WordPress.org username:"
+msgstr ""
+
+#: classes/directory/pattern-install.php:87
+msgid "Get Favorites"
+msgstr ""
+
+#: classes/directory/pattern-install.php:93
+msgid "Themes list"
+msgstr ""
+
+#: classes/directory/pattern-install.php:147
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:374
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:531
+msgctxt "theme"
+msgid "Installed"
+msgstr ""
+
+#: classes/directory/pattern-install.php:151
+msgctxt "theme"
+msgid "Details &amp; Preview"
+msgstr ""
+
+#: classes/directory/pattern-install.php:155
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:417
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:548
+#: classes/directory/includes/pattern.php:514
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: classes/directory/pattern-install.php:165
+#: classes/directory/pattern-install.php:184
+#, php-format
+msgctxt "theme"
+msgid "Use the Pattern %s"
+msgstr ""
+
+#: classes/directory/pattern-install.php:167
+#: classes/directory/pattern-install.php:186
+msgid "Insert Pattern"
+msgstr ""
+
+#: classes/directory/pattern-install.php:168
+#: classes/directory/pattern-install.php:238
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:394
+msgid "Preview"
+msgstr ""
+
+#: classes/directory/pattern-install.php:178
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:442
+#: includes/functions-admin.php:558
+msgid "Close"
+msgstr ""
+
+#: classes/directory/pattern-install.php:179
+msgid "Previous pattern"
+msgstr ""
+
+#: classes/directory/pattern-install.php:180
+msgid "Next pattern"
+msgstr ""
+
+#: classes/directory/pattern-install.php:206
+#, php-format
+msgid "Published: %s"
+msgstr ""
+
+#: classes/directory/pattern-install.php:215
+#, php-format
+msgid "%s Likes"
+msgstr ""
+
+#: classes/directory/pattern-install.php:229
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:451
+msgid "Collapse"
+msgstr ""
+
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:90
+#: classes/directory/includes/pattern-install.php:126
+msgid "Search"
+msgstr ""
+
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:92
+msgid "Search Results"
+msgstr ""
+
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:95
+msgctxt "themes"
+msgid "Featured"
+msgstr ""
+
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:98
+msgctxt "themes"
+msgid "Recently Updated"
+msgstr ""
+
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:208
+msgid "No Block Pattern match your request."
+msgstr ""
+
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:330
+#, php-format
+msgid "Preview &#8220;%s&#8221;"
+msgstr ""
+
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:365
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:522
+#, php-format
+msgid "Update to version %s"
+msgstr ""
+
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:366
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:523
+msgid "Update"
+msgstr ""
+
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:373
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:530
+msgid "This theme is already installed and is up to date"
+msgstr ""
+
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:383
+#, php-format
+msgctxt "theme"
+msgid "Install %s"
+msgstr ""
+
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:384
+#: classes/directory/includes/pattern-install.php:187
+msgid "Install Now"
+msgstr ""
+
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:393
+#, php-format
+msgid "Preview %s"
+msgstr ""
+
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:426
+msgid "Details"
+msgstr ""
+
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:539
+#: classes/directory/includes/pattern.php:704
+msgid "Install"
+msgstr ""
+
+#: classes/directory/includes/class-wp-pattern-install-list-table.php:565
+msgid "Version:"
+msgstr ""
+
+#: classes/directory/includes/pattern-install.php:95
+msgid "Search for themes by keyword."
+msgstr ""
+
+#: classes/directory/includes/pattern-install.php:101
+msgid "Type of search"
+msgstr ""
+
+#: classes/directory/includes/pattern-install.php:103
+msgid "Keyword"
+msgstr ""
+
+#: classes/directory/includes/pattern-install.php:104
+msgid "Author"
+msgstr ""
+
+#: classes/directory/includes/pattern-install.php:105
+msgctxt "Theme Installer"
+msgid "Tag"
+msgstr ""
+
+#: classes/directory/includes/pattern-install.php:111
+#: classes/directory/includes/pattern-install.php:123
+msgid "Search by keyword"
+msgstr ""
+
+#: classes/directory/includes/pattern-install.php:114
+msgid "Search by author"
+msgstr ""
+
+#: classes/directory/includes/pattern-install.php:117
+msgid "Search by tag"
+msgstr ""
+
+#: classes/directory/includes/pattern-install.php:182
+msgid ""
+"If you have a theme in a .zip format, you may install or update it by "
+"uploading it here."
+msgstr ""
+
+#: classes/directory/includes/pattern-install.php:185
+msgid "Theme zip file"
+msgstr ""
+
+#: classes/directory/includes/pattern-install.php:238
+msgid "Theme Installation"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:39
+msgid "Buttons"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:40
+msgid "columns"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:42
+msgid "Header"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:43
+msgid "Images"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:47
+#: classes/directory/includes/pattern.php:103
+msgid "Features"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:48
+msgid "Accessibility Ready"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:49
+msgid "Block Editor Patterns"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:50
+msgid "Block Editor Styles"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:51
+msgid "Custom Background"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:52
+msgid "Custom Colors"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:53
+msgid "Custom Header"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:54
+msgid "Custom Logo"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:55
+msgid "Editor Style"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:56
+msgid "Featured Image Header"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:57
+msgid "Featured Images"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:58
+msgid "Footer Widgets"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:59
+msgid "Full Site Editing"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:60
+msgid "Full Width Template"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:61
+msgid "Post Formats"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:62
+msgid "Sticky Post"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:63
+msgid "Theme Options"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:66
+#: classes/directory/includes/pattern.php:102
+#: includes/functions-admin.php:3366
+msgid "Layout"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:67
+msgid "Grid Layout"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:68
+msgid "One Column"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:69
+msgid "Two Columns"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:70
+msgid "Three Columns"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:71
+msgid "Four Columns"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:72 includes/functions-admin.php:2510
+msgid "Left Sidebar"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:73 includes/functions-admin.php:2515
+msgid "Right Sidebar"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:74
+msgid "Wide Blocks"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:488
+msgid "Show previous theme"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:489
+msgid "Show next theme"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:490
+msgid "Close details dialog"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:503
+msgid "Current Theme"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:508
+#, php-format
+msgid "Version: %s"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:526
+#, php-format
+msgid "(%s ratings)"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:528
+msgid "(opens in a new tab)"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:538
+msgid "Update Available"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:543
+msgid "Update Incompatible"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:549
+#, php-format
+msgid ""
+"There is a new version of %s available, but it doesn&#8217;t work with your "
+"versions of WordPress and PHP."
+msgstr ""
+
+#: classes/directory/includes/pattern.php:555
+#: classes/directory/includes/pattern.php:632
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Please update WordPress</a>, and then <a href=\"%2$s"
+"\">learn more about updating PHP</a>."
+msgstr ""
+
+#: classes/directory/includes/pattern.php:563
+#: classes/directory/includes/pattern.php:585
+#: classes/directory/includes/pattern.php:640
+#: classes/directory/includes/pattern.php:658
+#, php-format
+msgid "<a href=\"%s\">Please update WordPress</a>."
+msgstr ""
+
+#: classes/directory/includes/pattern.php:569
+#: classes/directory/includes/pattern.php:600
+#: classes/directory/includes/pattern.php:646
+#: classes/directory/includes/pattern.php:669
+#, php-format
+msgid "<a href=\"%s\">Learn more about updating PHP</a>."
+msgstr ""
+
+#: classes/directory/includes/pattern.php:579
+#, php-format
+msgid ""
+"There is a new version of %s available, but it doesn&#8217;t work with your "
+"version of WordPress."
+msgstr ""
+
+#: classes/directory/includes/pattern.php:594
+#, php-format
+msgid ""
+"There is a new version of %s available, but it doesn&#8217;t work with your "
+"version of PHP."
+msgstr ""
+
+#: classes/directory/includes/pattern.php:617
+#, php-format
+msgid "This is a child theme of %s."
+msgstr ""
+
+#: classes/directory/includes/pattern.php:628
+msgid "This theme doesn&#8217;t work with your versions of WordPress and PHP."
+msgstr ""
+
+#: classes/directory/includes/pattern.php:654
+msgid "This theme doesn&#8217;t work with your version of WordPress."
+msgstr ""
+
+#: classes/directory/includes/pattern.php:665
+msgid "This theme doesn&#8217;t work with your version of PHP."
+msgstr ""
+
+#: classes/directory/includes/pattern.php:682
+msgid "Tags:"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:689
+msgid "Customize"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:693
+#: includes/functions-admin.php:2961 includes/functions-admin.php:2962
+#: includes/functions-admin.php:3077 includes/functions-admin.php:3078
+#: includes/functions-admin.php:3237 includes/functions-admin.php:3238
+#: includes/functions-admin.php:3313 includes/functions-admin.php:3314
+#: includes/functions-admin.php:3371 includes/functions-admin.php:3372
+#: includes/functions-admin.php:3436 includes/functions-admin.php:3437
+#: includes/functions-admin.php:3727 includes/functions-admin.php:3728
+msgid "Delete"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:698
+#: classes/directory/includes/pattern.php:700
+msgid "Live Preview"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:705
+#: classes/directory/includes/pattern.php:708
+msgid "Install &amp; Preview"
+msgstr ""
+
+#: classes/directory/includes/pattern.php:707
+msgctxt "theme"
+msgid "Cannot Install"
+msgstr ""
+
+#: classes/fields/background.php:77
+msgid "background-repeat"
+msgstr ""
+
+#: classes/fields/background.php:93
+msgid "background-attachment"
+msgstr ""
+
+#: classes/fields/background.php:110
+msgid "background-position"
+msgstr ""
+
+#: classes/fields/background.php:159
+msgid "background-size"
+msgstr ""
+
+#: classes/fields/background.php:171
+msgid "background-image"
+msgstr ""
+
+#: classes/fields/background.php:174 classes/fields/upload.php:46
+msgid "Add Media"
+msgstr ""
+
+#: classes/fields/background.php:192 classes/fields/upload.php:64
+#: includes/functions-admin.php:546
+msgid "Remove Media"
+msgstr ""
+
+#: classes/fields/border.php:34 classes/fields/dimension.php:42
+msgid "width"
+msgstr ""
+
+#: classes/fields/border.php:44 classes/fields/dimension.php:59
+#: classes/fields/measurement.php:36 classes/fields/spacing.php:79
+msgid "unit"
+msgstr ""
+
+#: classes/fields/border.php:62
+msgid "style"
+msgstr ""
+
+#: classes/fields/box-shadow.php:55
+msgid "offset-x"
+msgstr ""
+
+#: classes/fields/box-shadow.php:63
+msgid "offset-y"
+msgstr ""
+
+#: classes/fields/box-shadow.php:71
+msgid "blur-radius"
+msgstr ""
+
+#: classes/fields/box-shadow.php:79
+msgid "spread-radius"
+msgstr ""
+
+#: classes/fields/category-checkbox.php:40
+#: classes/fields/category-select.php:41
+msgid "No Categories Found"
+msgstr ""
+
+#: classes/fields/category-select.php:36
+#: classes/fields/custom-post-type-select.php:51
+#: classes/fields/page-select.php:47 classes/fields/post-select.php:47
+#: classes/fields/tag-select.php:35 classes/fields/taxonomy-select.php:47
+msgid "Choose One"
+msgstr ""
+
+#: classes/fields/custom-post-type-checkbox.php:55
+#: classes/fields/custom-post-type-select.php:57
+#: classes/fields/post-checkbox.php:52 classes/fields/post-select.php:53
+msgid "No Posts Found"
+msgstr ""
+
+#: classes/fields/dimension.php:49
+msgid "height"
+msgstr ""
+
+#: classes/fields/gallery.php:66 includes/functions-admin.php:552
+msgid "Delete Gallery"
+msgstr ""
+
+#: classes/fields/gallery.php:67 includes/functions-admin.php:553
+msgid "Edit Gallery"
+msgstr ""
+
+#: classes/fields/gallery.php:74 includes/functions-admin.php:554
+msgid "Create Gallery"
+msgstr ""
+
+#: classes/fields/google-fonts.php:55 classes/fields/google-fonts.php:97
+msgid "Remove Google Font"
+msgstr ""
+
+#: classes/fields/google-fonts.php:122
+msgid "Add Google Font"
+msgstr ""
+
+#: classes/fields/group.php:68 classes/fields/list-item.php:70
+#: classes/fields/slider.php:58 classes/fields/social-links.php:155
+msgid "You can re-order with drag & drop, the order will update after saving."
+msgstr ""
+
+#: classes/fields/link-color.php:31
+msgctxt "color picker"
+msgid "Standard"
+msgstr ""
+
+#: classes/fields/link-color.php:32
+msgctxt "color picker"
+msgid "Hover"
+msgstr ""
+
+#: classes/fields/link-color.php:33
+msgctxt "color picker"
+msgid "Active"
+msgstr ""
+
+#: classes/fields/link-color.php:34
+msgctxt "color picker"
+msgid "Visited"
+msgstr ""
+
+#: classes/fields/link-color.php:35
+msgctxt "color picker"
+msgid "Focus"
+msgstr ""
+
+#: classes/fields/on-off.php:46
+msgid "On"
+msgstr ""
+
+#: classes/fields/on-off.php:64
+msgid "Off"
+msgstr ""
+
+#: classes/fields/page-checkbox.php:52 classes/fields/page-select.php:53
+msgid "No Pages Found"
+msgstr ""
+
+#: classes/fields/sidebar-select.php:52
+msgid "Choose Sidebar"
+msgstr ""
+
+#: classes/fields/sidebar-select.php:57
+msgid "No Sidebars"
+msgstr ""
+
+#: classes/fields/social-links.php:22
+msgid "Facebook"
+msgstr ""
+
+#: classes/fields/social-links.php:27
+msgid "Twitter"
+msgstr ""
+
+#: classes/fields/social-links.php:32
+msgid "Google+"
+msgstr ""
+
+#: classes/fields/social-links.php:37
+msgid "LinkedIn"
+msgstr ""
+
+#: classes/fields/social-links.php:42
+msgid "Pinterest"
+msgstr ""
+
+#: classes/fields/social-links.php:47
+msgid "Youtube"
+msgstr ""
+
+#: classes/fields/social-links.php:52
+msgid "Dribbble"
+msgstr ""
+
+#: classes/fields/social-links.php:57
+msgid "Github"
+msgstr ""
+
+#: classes/fields/social-links.php:62
+msgid "Forrst"
+msgstr ""
+
+#: classes/fields/social-links.php:67
+msgid "Digg"
+msgstr ""
+
+#: classes/fields/social-links.php:72
+msgid "Delicious"
+msgstr ""
+
+#: classes/fields/social-links.php:77
+msgid "Tumblr"
+msgstr ""
+
+#: classes/fields/social-links.php:82
+msgid "Skype"
+msgstr ""
+
+#: classes/fields/social-links.php:87
+msgid "SoundCloud"
+msgstr ""
+
+#: classes/fields/social-links.php:92
+msgid "Vimeo"
+msgstr ""
+
+#: classes/fields/social-links.php:97
+msgid "Flickr"
+msgstr ""
+
+#: classes/fields/social-links.php:102
+msgid "VK.com"
+msgstr ""
+
+#: classes/fields/spacing.php:45
+msgid "top"
+msgstr ""
+
+#: classes/fields/spacing.php:53
+msgid "right"
+msgstr ""
+
+#: classes/fields/spacing.php:61
+msgid "bottom"
+msgstr ""
+
+#: classes/fields/spacing.php:69
+msgid "left"
+msgstr ""
+
+#: classes/fields/tag-checkbox.php:39 classes/fields/tag-select.php:40
+msgid "No Tags Found"
+msgstr ""
+
+#: classes/fields/taxonomy-checkbox.php:51
+#: classes/fields/taxonomy-select.php:52
+msgid "No Taxonomies Found"
+msgstr ""
+
+#: includes/functions-admin.php:75
+#, php-format
+msgid "The %1$s input field for %2$s only allows numeric values."
+msgstr ""
+
+#: includes/functions-admin.php:147
+#, php-format
+msgid ""
+"The %s Colorpicker only allows valid hexadecimal or rgba values depending on "
+"the setting type."
+msgstr ""
+
+#: includes/functions-admin.php:295
+msgid "slider"
+msgstr ""
+
+#: includes/functions-admin.php:362
+#, php-format
+msgid ""
+"Notice: %1$s was called incorrectly. All stored data must be filtered "
+"through %2$s, the %3$s option type is not using this filter. This is "
+"required since version %4$s."
+msgstr ""
+
+#: includes/functions-admin.php:545
+msgid "Send to Field"
+msgstr ""
+
+#: includes/functions-admin.php:547
+msgid "Are you sure you want to reset back to the defaults?"
+msgstr ""
+
+#: includes/functions-admin.php:548
+msgid "You can't remove this! But you can edit the values."
+msgstr ""
+
+#: includes/functions-admin.php:549
+msgid "Are you sure you want to remove this?"
+msgstr ""
+
+#: includes/functions-admin.php:550
+msgid "Are you sure you want to activate this layout?"
+msgstr ""
+
+#: includes/functions-admin.php:551
+msgid "Sorry, you can't have settings three levels deep."
+msgstr ""
+
+#: includes/functions-admin.php:555
+msgid "Are you sure you want to delete this Gallery?"
+msgstr ""
+
+#: includes/functions-admin.php:556
+msgid "Today"
+msgstr ""
+
+#: includes/functions-admin.php:557
+msgid "Now"
+msgstr ""
+
+#: includes/functions-admin.php:559
+msgid "Featured Image"
+msgstr ""
+
+#: includes/functions-admin.php:560 includes/functions-admin.php:2570
+#: includes/functions-admin.php:2635
+msgid "Image"
+msgstr ""
+
+#: includes/functions-admin.php:561
+msgid "Saving..."
+msgstr ""
+
+#: includes/functions-admin.php:679
+msgid "Sample Text Field Label"
+msgstr ""
+
+#: includes/functions-admin.php:680
+msgid "Description for the sample text field."
+msgstr ""
+
+#: includes/functions-admin.php:1642
+msgid "Settings updated."
+msgstr ""
+
+#: includes/functions-admin.php:1646
+msgid "Settings could not be saved."
+msgstr ""
+
+#: includes/functions-admin.php:1653
+msgid "Settings Imported."
+msgstr ""
+
+#: includes/functions-admin.php:1657
+msgid "Settings could not be imported."
+msgstr ""
+
+#: includes/functions-admin.php:1664
+msgid "Data Imported."
+msgstr ""
+
+#: includes/functions-admin.php:1668
+msgid "Data could not be imported."
+msgstr ""
+
+#: includes/functions-admin.php:1675
+msgid "Layouts Imported."
+msgstr ""
+
+#: includes/functions-admin.php:1679
+msgid "Layouts could not be imported."
+msgstr ""
+
+#: includes/functions-admin.php:1686
+msgid "Layouts Updated."
+msgstr ""
+
+#: includes/functions-admin.php:1690
+msgid "Layouts could not be updated."
+msgstr ""
+
+#: includes/functions-admin.php:1694
+msgid "Layouts have been deleted."
+msgstr ""
+
+#: includes/functions-admin.php:1699
+msgid "Layout activated."
+msgstr ""
+
+#: includes/functions-admin.php:1752
+msgid "Group"
+msgstr ""
+
+#: includes/functions-admin.php:1753
+msgid "HTML code"
+msgstr ""
+
+#: includes/functions-admin.php:1771
+msgid "Tab"
+msgstr ""
+
+#: includes/functions-admin.php:2520
+msgid "Full Width (no sidebar)"
+msgstr ""
+
+#: includes/functions-admin.php:2525
+msgid "Dual Sidebar"
+msgstr ""
+
+#: includes/functions-admin.php:2530
+msgid "Left Dual Sidebar"
+msgstr ""
+
+#: includes/functions-admin.php:2535
+msgid "Right Dual Sidebar"
+msgstr ""
+
+#: includes/functions-admin.php:2581 includes/functions-admin.php:2641
+msgid "Link"
+msgstr ""
+
+#: includes/functions-admin.php:2592 includes/functions-admin.php:2647
+#: includes/functions-admin.php:3110 includes/meta/settings.php:19
+msgid "Description"
+msgstr ""
+
+#: includes/functions-admin.php:2704
+#, php-format
+msgid ""
+"Enter a link to the profile or page on the social website. Remember to add "
+"the %s part to the front of the link."
+msgstr ""
+
+#: includes/functions-admin.php:2710
+msgid "Name"
+msgstr ""
+
+#: includes/functions-admin.php:2711
+msgid "Enter the name of the social website."
+msgstr ""
+
+#: includes/functions-admin.php:2719
+msgid "Enter the text shown in the title attribute of the link."
+msgstr ""
+
+#: includes/functions-admin.php:2771 includes/functions.php:672
+#, php-format
+msgid "Unable to open the %s file in write mode."
+msgstr ""
+
+#: includes/functions-admin.php:2949
+#, php-format
+msgid "%s: Displayed as a menu item on the Block Patterns Options page."
+msgstr ""
+
+#: includes/functions-admin.php:2952 includes/functions-admin.php:3032
+#: includes/functions-admin.php:3301
+#, php-format
+msgid "%s: A unique lower case alphanumeric string, underscores allowed."
+msgstr ""
+
+#: includes/functions-admin.php:2958
+msgid "edit"
+msgstr ""
+
+#: includes/functions-admin.php:2959 includes/functions-admin.php:3074
+#: includes/functions-admin.php:3075 includes/functions-admin.php:3234
+#: includes/functions-admin.php:3235 includes/functions-admin.php:3310
+#: includes/functions-admin.php:3311 includes/functions-admin.php:3433
+#: includes/functions-admin.php:3434 includes/functions-admin.php:3724
+#: includes/functions-admin.php:3725
+msgid "Edit"
+msgstr ""
+
+#: includes/functions-admin.php:2968
+msgid "Section Title"
+msgstr ""
+
+#: includes/functions-admin.php:2976
+msgid "Section ID"
+msgstr ""
+
+#: includes/functions-admin.php:3029
+#, php-format
+msgid ""
+"%s: Displayed as the label of a form element on the Block Patterns Options "
+"page."
+msgstr ""
+
+#: includes/functions-admin.php:3035
+#, php-format
+msgid "%s: Choose one of the available option types from the dropdown."
+msgstr ""
+
+#: includes/functions-admin.php:3038
+#, php-format
+msgid ""
+"%s: Enter a detailed description for the users to read on the Block Patterns "
+"Options page, HTML is allowed. This is also where you enter content for both "
+"the Textblock & Textblock Titled option types."
+msgstr ""
+
+#: includes/functions-admin.php:3041
+#, php-format
+msgid ""
+"%s: This will only affect the following option types: Checkbox, Radio, "
+"Select & Select Image."
+msgstr ""
+
+#: includes/functions-admin.php:3044
+#, php-format
+msgid "%s: This will only affect the List Item option type."
+msgstr ""
+
+#: includes/functions-admin.php:3047
+#, php-format
+msgid ""
+"%1$s: Setting the standard value for your option only works for some option "
+"types. Read the %2$s for more information on which ones."
+msgstr ""
+
+#: includes/functions-admin.php:3050
+#, php-format
+msgid ""
+"%s: Enter a numeric value for the number of rows in your textarea. This will "
+"only affect the following option types: CSS, Textarea, & Textarea Simple."
+msgstr ""
+
+#: includes/functions-admin.php:3053
+#, php-format
+msgid ""
+"%s: Add a comma separated list of post type like 'post,page'. This will only "
+"affect the following option types: Custom Post Type Checkbox, & Custom Post "
+"Type Select."
+msgstr ""
+
+#: includes/functions-admin.php:3056
+#, php-format
+msgid ""
+"%s: Add a comma separated list of any registered taxonomy like 'category,"
+"post_tag'. This will only affect the following option types: Taxonomy "
+"Checkbox, & Taxonomy Select."
+msgstr ""
+
+#: includes/functions-admin.php:3059
+#, php-format
+msgid ""
+"%1$s: Add a comma separated list of options in the following format %2$s "
+"(slide from %3$s in intervals of %4$s). The three values represent the "
+"minimum, maximum, and step options and will only affect the Numeric Slider "
+"option type."
+msgstr ""
+
+#: includes/functions-admin.php:3062
+#, php-format
+msgid "%s: Add and optional class to this option type."
+msgstr ""
+
+#: includes/functions-admin.php:3065
+#, php-format
+msgid ""
+"%1$s: Add a comma separated list (no spaces) of conditions in which the "
+"field will be visible, leave this setting empty to always show the field. In "
+"these examples, %2$s is a placeholder for your condition, which can be in "
+"the form of %3$s."
+msgstr ""
+
+#: includes/functions-admin.php:3068
+#, php-format
+msgid ""
+"%s: Choose the logical operator to compute the result of the conditions."
+msgstr ""
+
+#: includes/functions-admin.php:3084 includes/functions-admin.php:3244
+msgid "Label"
+msgstr ""
+
+#: includes/functions-admin.php:3092 includes/functions-admin.php:3328
+msgid "ID"
+msgstr ""
+
+#: includes/functions-admin.php:3100
+msgid "Type"
+msgstr ""
+
+#: includes/functions-admin.php:3118
+msgid "Choices"
+msgstr ""
+
+#: includes/functions-admin.php:3123
+msgid "Add Choice"
+msgstr ""
+
+#: includes/functions-admin.php:3134 includes/functions-settings-page.php:404
+#: includes/functions-settings-page.php:518
+msgid "Add Setting"
+msgstr ""
+
+#: includes/functions-admin.php:3140
+msgid "Standard"
+msgstr ""
+
+#: includes/functions-admin.php:3140
+msgid "ControlBlockPatterns->Documentation"
+msgstr ""
+
+#: includes/functions-admin.php:3148
+msgid "Rows"
+msgstr ""
+
+#: includes/functions-admin.php:3156
+msgid "Post Type"
+msgstr ""
+
+#: includes/functions-admin.php:3164
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/functions-admin.php:3172
+msgid "Min, Max, & Step"
+msgstr ""
+
+#: includes/functions-admin.php:3180
+msgid "CSS Class"
+msgstr ""
+
+#: includes/functions-admin.php:3188
+msgid "Condition"
+msgstr ""
+
+#: includes/functions-admin.php:3196
+msgid "Operator"
+msgstr ""
+
+#: includes/functions-admin.php:3200
+msgid "or"
+msgstr ""
+
+#: includes/functions-admin.php:3254
+msgid "Value"
+msgstr ""
+
+#: includes/functions-admin.php:3264
+msgid "Image Source (Radio Image only)"
+msgstr ""
+
+#: includes/functions-admin.php:3298
+#, php-format
+msgid ""
+"%s: Displayed as a contextual help menu item on the Block Patterns Options "
+"page."
+msgstr ""
+
+#: includes/functions-admin.php:3304
+#, php-format
+msgid ""
+"%s: Enter the HTML content about this contextual help item displayed on the "
+"Settings page for end users to read."
+msgstr ""
+
+#: includes/functions-admin.php:3368 includes/functions-admin.php:3369
+msgid "Activate"
+msgstr ""
+
+#: includes/functions-admin.php:3871
+msgid "New Layout"
+msgstr ""
+
+#: includes/functions-docs-page.php:175
+msgid "How-to-guide"
+msgstr ""
+
+#: includes/functions-settings-page.php:32
+msgid ""
+"The Block Patterns Builder is being overridden by a custom file in your "
+"theme. Any changes you make via the UI Builder will not be saved."
+msgstr ""
+
+#: includes/functions-settings-page.php:42
+msgid "ControlBlockPatterns"
+msgstr ""
+
+#: includes/functions-settings-page.php:59
+#: includes/functions-settings-page.php:147
+msgid "Block Patterns Options updated."
+msgstr ""
+
+#: includes/functions-settings-page.php:60
+#: includes/functions-settings-page.php:148
+msgid "Block Patterns Options reset."
+msgstr ""
+
+#: includes/functions-settings-page.php:61
+#: includes/functions-settings-page.php:149
+msgid "Save Settings"
+msgstr ""
+
+#: includes/functions-settings-page.php:78
+#: includes/functions-settings-page.php:102
+#: includes/functions-settings-page.php:126
+#: includes/functions-settings-page.php:793
+msgid "Layouts"
+msgstr ""
+
+#: includes/functions-settings-page.php:84
+msgid "Settings Builder"
+msgstr ""
+
+#: includes/functions-settings-page.php:96
+#: includes/functions-settings-page.php:120
+#: includes/functions-settings-page.php:758
+msgid "Block Patterns Options"
+msgstr ""
+
+#: includes/functions-settings-page.php:108
+msgid "Settings PHP File"
+msgstr ""
+
+#: includes/functions-settings-page.php:132
+msgid "Layout Management"
+msgstr ""
+
+#: includes/functions-settings-page.php:141
+#: includes/functions-settings-page.php:142
+msgid "Documentation"
+msgstr ""
+
+#: includes/functions-settings-page.php:154
+msgid "Creating Options"
+msgstr ""
+
+#: includes/functions-settings-page.php:162
+msgid "Function References"
+msgstr ""
+
+#: includes/functions-settings-page.php:166
+#: includes/functions-settings-page.php:208
+#: includes/functions-settings-page.php:686
+msgid "Theme Mode"
+msgstr ""
+
+#: includes/functions-settings-page.php:170
+#: includes/functions-settings-page.php:214
+msgid "Meta Boxes"
+msgstr ""
+
+#: includes/functions-settings-page.php:174
+msgid "Code Examples"
+msgstr ""
+
+#: includes/functions-settings-page.php:178
+msgid "Layouts Overview"
+msgstr ""
+
+#: includes/functions-settings-page.php:184
+msgid "Overview of available Theme Option fields."
+msgstr ""
+
+#: includes/functions-settings-page.php:190
+msgid "Option types in alphabetical order & hooks to filter them."
+msgstr ""
+
+#: includes/functions-settings-page.php:196
+msgid "Function Reference:cbp_get_option()"
+msgstr ""
+
+#: includes/functions-settings-page.php:202
+msgid "Function Reference:get_block_patterns()"
+msgstr ""
+
+#: includes/functions-settings-page.php:220
+msgid "Code examples for front-end development."
+msgstr ""
+
+#: includes/functions-settings-page.php:226
+msgid "What's a layout anyhow?"
+msgstr ""
+
+#: includes/functions-settings-page.php:403
+#: includes/functions-settings-page.php:517
+msgid "Add Section"
+msgstr ""
+
+#: includes/functions-settings-page.php:410
+msgid "Contextual Help"
+msgstr ""
+
+#: includes/functions-settings-page.php:414
+msgid "Contextual Help Sidebar"
+msgstr ""
+
+#: includes/functions-settings-page.php:414
+msgid ""
+"If you decide to add contextual help to the Theme Option page, enter the "
+"optional \"Sidebar\" HTML here. This would be an extremely useful place to "
+"add links to your themes documentation or support forum. Only after you've "
+"added some content below will this display to the user."
+msgstr ""
+
+#: includes/functions-settings-page.php:441
+msgid "Add Contextual Help Content"
+msgstr ""
+
+#: includes/functions-settings-page.php:557
+msgid ""
+"To import your Settings copy and paste what appears to be a random string of "
+"alpha numeric characters into this textarea and press the \"Import Settings"
+"\" button."
+msgstr ""
+
+#: includes/functions-settings-page.php:559
+msgid "Import Settings"
+msgstr ""
+
+#: includes/functions-settings-page.php:598
+msgid ""
+"Only after you've imported the Settings should you try and update your Block "
+"Patterns Options."
+msgstr ""
+
+#: includes/functions-settings-page.php:601
+msgid ""
+"To import your Block Patterns Options copy and paste what appears to be a "
+"random string of alpha numeric characters into this textarea and press the "
+"\"Import Block Patterns Options\" button."
+msgstr ""
+
+#: includes/functions-settings-page.php:603
+msgid "Import Block Patterns Options"
+msgstr ""
+
+#: includes/functions-settings-page.php:641
+msgid ""
+"Only after you've imported the Settings should you try and update your "
+"Layouts."
+msgstr ""
+
+#: includes/functions-settings-page.php:644
+msgid ""
+"To import your Layouts copy and paste what appears to be a random string of "
+"alpha numeric characters into this textarea and press the \"Import Layouts\" "
+"button. Keep in mind that when you import your layouts, the active layout's "
+"saved data will write over the current data set for your Block Patterns "
+"Options."
+msgstr ""
+
+#: includes/functions-settings-page.php:646
+msgid "Import Layouts"
+msgstr ""
+
+#: includes/functions-settings-page.php:685
+#, php-format
+msgid ""
+"Export your Settings into a fully functional %1$s file. If you want to add "
+"your own custom %2$s text domain to the file, enter it into the text field "
+"before exporting. For more information on how to use this file read the "
+"documentation on %3$s. Remember, you should always check the file for errors "
+"before including it in your theme."
+msgstr ""
+
+#: includes/functions-settings-page.php:694
+msgid "Export Settings File"
+msgstr ""
+
+#: includes/functions-settings-page.php:722
+#, php-format
+msgid ""
+"Export your Settings by highlighting this text and doing a copy/paste into a "
+"blank .txt file. Then save the file for importing into another install of "
+"WordPress later. Alternatively, you could just paste it into the %1$s %1$s "
+"textarea on another web site."
+msgstr ""
+
+#: includes/functions-settings-page.php:723
+#: includes/functions-settings-page.php:758
+#: includes/functions-settings-page.php:793
+msgid "ControlBlockPatterns->Settings->Import"
+msgstr ""
+
+#: includes/functions-settings-page.php:757
+#, php-format
+msgid ""
+"Export your Block Patterns Options data by highlighting this text and doing "
+"a copy/paste into a blank .txt file. Then save the file for importing into "
+"another install of WordPress later. Alternatively, you could just paste it "
+"into the %1$s %2$s textarea on another web site."
+msgstr ""
+
+#: includes/functions-settings-page.php:792
+#, php-format
+msgid ""
+"Export your Layouts by highlighting this text and doing a copy/paste into a "
+"blank .txt file. Then save the file for importing into another install of "
+"WordPress later. Alternatively, you could just paste it into the %1$s %2$s "
+"textarea on another web site."
+msgstr ""
+
+#: includes/functions-settings-page.php:830
+msgid ""
+"To add a new layout enter a unique lower case alphanumeric string (dashes "
+"allowed) in the text field and click \"Save Layouts\"."
+msgstr ""
+
+#: includes/functions-settings-page.php:831
+msgid ""
+"As well, you can activate, remove, and drag & drop the order; all situations "
+"require you to click \"Save Layouts\" for the changes to be applied."
+msgstr ""
+
+#: includes/functions-settings-page.php:832
+msgid ""
+"When you create a new layout it will become active and any changes made to "
+"the Block Patterns Options will be applied to it. If you switch back to a "
+"different layout immediately after creating a new layout that new layout "
+"will have a snapshot of the current Block Patterns Options data attached to "
+"it."
+msgstr ""
+
+#: includes/functions-settings-page.php:836
+#, php-format
+msgid ""
+"Visit %s to see a more in-depth description of what layouts are and how to "
+"use them."
+msgstr ""
+
+#: includes/functions-settings-page.php:837
+msgid "ControlBlockPatterns->Documentation->Layouts Overview"
+msgstr ""
+
+#: includes/functions-settings-page.php:874
+msgid "Save Layouts"
+msgstr ""
+
+#: includes/functions.php:661
+#, php-format
+msgid "Unable to write to file %s."
+msgstr ""
+
+#: includes/functions.php:782
+msgid "-- Choose Pattern --"
+msgstr ""
+
+#: includes/functions.php:797
+msgid "No Patterns Found"
+msgstr ""
+
+#: includes/meta-boxes.php:33
+msgid "Block Pattern Data"
+msgstr ""
+
+#: includes/meta-boxes.php:34
+#, php-format
+msgid ""
+"Block Patterns are predefined block layouts, available from the patterns tab "
+"of the block inserter. Once inserted into content, the blocks are ready for "
+"additional or modified content and configuration. %s"
+msgstr ""
+
+#: includes/settings.php:53
+msgid "General Options"
+msgstr ""
+
+#: includes/settings.php:54
+msgid ""
+"General options tab allowed you to control default block pattern catefories "
+"& default patterns are loaded by active theme or plugins"
+msgstr ""
+
+#: includes/settings.php:58
+msgid "Custom Scripts"
+msgstr ""
+
+#: includes/settings.php:59
+msgid "Loaded in Entire Site"
+msgstr ""
+
+#: includes/settings.php:67
+msgid "Control Patterns"
+msgstr ""
+
+#: includes/settings.php:72
+msgid "Control Post Types"
+msgstr ""
+
+#: includes/settings.php:77
+msgid "Control CSS"
+msgstr ""
+
+#: includes/settings.php:82
+msgid "Control Scripts"
+msgstr ""
+
+#: includes/meta/embed.php:10
+msgid "Pattern Embed"
+msgstr ""
+
+#: includes/meta/embed.php:15
+msgid "Shortcodes"
+msgstr ""
+
+#: includes/meta/settings.php:5
+msgid "Pattern Settings"
+msgstr ""
+
+#: includes/meta/settings.php:10
+msgid "viewportWidth"
+msgstr ""
+
+#: includes/settings/control-css.php:5
+msgid "Defult Stylesheet?"
+msgstr ""
+
+#: includes/settings/control-css.php:8
+#, php-format
+msgid "Use %1$s to disable default stylesheet of Control Block Patterns - %2$s"
+msgstr ""
+
+#: includes/settings/control-css.php:13
+msgid "Add Inline Style in"
+msgstr ""
+
+#: includes/settings/control-css.php:25
+msgid "Handle"
+msgstr ""
+
+#: includes/settings/control-css.php:28
+msgid "(string) (Required) Name of the stylesheet. Should be registered."
+msgstr ""
+
+#: includes/settings/control-patterns.php:5
+msgid "Category Name"
+msgstr ""
+
+#: includes/settings/control-patterns.php:6
+msgid ""
+"If you do not choose any Pattern Category when you create new Block Pattern, "
+"all patterns will be populated under this Category."
+msgstr ""
+
+#: includes/settings/control-patterns.php:7
+msgid "Default Pattern Category Name"
+msgstr ""
+
+#: includes/settings/control-posttypes.php:5
+msgid "Post meta box"
+msgstr ""
+
+#: includes/settings/control-posttypes.php:8
+#, php-format
+msgid "Use %1$s to disable default Meta Box in single post edit page"
+msgstr ""
+
+#: includes/settings/control-posttypes.php:12
+msgid "Page meta box"
+msgstr ""
+
+#: includes/settings/control-posttypes.php:15
+#, php-format
+msgid "Use %1$s to disable default Meta Box in single page"
+msgstr ""
+
+#: includes/settings/control-scripts.php:5
+msgid "Header, Footer & Body Scripts"
+msgstr ""
+
+#: includes/settings/control-scripts.php:7
+#, php-format
+msgid ""
+"Fire the %1$s action. Allowed tag %2$s, %3$s, %4$s, %5$s. Scripts are "
+"applicable in entire site. You can use Google anaylitic code, differentt "
+"social media's embeded code."
+msgstr ""
+
+#: includes/settings/control-scripts.php:12
+#: includes/settings/control-scripts.php:35
+#: includes/settings/control-scripts.php:58
+msgid "Enable?"
+msgstr ""
+
+#: includes/settings/control-scripts.php:19
+msgid "Scripts in Head"
+msgstr ""
+
+#: includes/settings/control-scripts.php:20
+#, php-format
+msgid "Prints scripts or data in the %1$s tag on the front end."
+msgstr ""
+
+#: includes/settings/control-scripts.php:28
+msgid "Body Scripts"
+msgstr ""
+
+#: includes/settings/control-scripts.php:30
+#, php-format
+msgid "Fire the %1$s action."
+msgstr ""
+
+#: includes/settings/control-scripts.php:42
+msgid "Scripts in Body Open"
+msgstr ""
+
+#: includes/settings/control-scripts.php:43
+#, php-format
+msgid "Triggered after the opening %1$s tag."
+msgstr ""
+
+#: includes/settings/control-scripts.php:51
+msgid "Footer Scripts"
+msgstr ""
+
+#: includes/settings/control-scripts.php:53
+#, php-format
+msgid "Fire the %1$s action"
+msgstr ""
+
+#: includes/settings/control-scripts.php:65
+msgid "Scripts in Footer"
+msgstr ""
+
+#: includes/settings/control-scripts.php:66
+#, php-format
+msgid "Prints scripts or data before the closing %1$s tag on the front end."
+msgstr ""

@@ -1,0 +1,23 @@
+.ctrlbp-toggle-all-wrapper {
+	margin-top: 0;
+}
+.ctrlbp-input-list {
+	margin: 0;
+	line-height: 1.8;
+}
+.ctrlbp-input-list .ctrlbp-input-list {
+	margin-left: 20px;
+}
+.ctrlbp-input-list li {
+	list-style: none;
+	margin-bottom: 0;
+}
+.ctrlbp-input-list.ctrlbp-inline {
+	line-height: inherit;
+}
+.ctrlbp-input-list.ctrlbp-inline li {
+	display: inline-block;
+}
+.ctrlbp-input-list.ctrlbp-inline li:not(:last-child) {
+	margin-right: 20px;
+}

@@ -1,0 +1,53 @@
+.ctrlbp-files {
+	margin: 0;
+	overflow: hidden;
+}
+.ctrlbp-file {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 12px;
+	background: #fff;
+	cursor: move;
+}
+.ctrlbp-file-icon {
+	width: 48px;
+	height: 64px;
+	margin-right: 8px;
+	border: 1px solid rgba(0, 0, 0, .07);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ctrlbp-file-icon img {
+	max-width: 100%;
+	max-height: 100%;
+	height: auto;
+	display: block;
+}
+.ctrlbp-file-title {
+	font-weight: 600;
+	text-decoration: none;
+}
+.ctrlbp-file-name {
+	margin: 2px 0 6px;
+	white-space: nowrap;
+}
+.ctrlbp-file-actions {
+	font-size: 11px;
+}
+.ctrlbp-file-edit,
+.ctrlbp-file-delete {
+	color: inherit;
+	text-decoration: none;
+}
+.ctrlbp-file-edit:after {
+	content: "|";
+	color: #dcdcde;
+	margin: 0 6px;
+}
+.ctrlbp-file-delete {
+	color: #b32d2e;
+}
+.ctrlbp-file-input {
+	width: 100%;
+}

@@ -1,0 +1,13 @@
+.ctrlbp-select {
+	min-width: 160px;
+}
+.ctrlbp-select.ctrlbp-select[multiple] {
+	padding: 0;
+}
+.ctrlbp-select option {
+	padding: 4px 8px;
+}
+.ctrlbp-select-all-none {
+	display: block;
+	margin-top: 5px;
+}

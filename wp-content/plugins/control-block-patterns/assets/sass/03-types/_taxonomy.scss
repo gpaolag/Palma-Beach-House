@@ -1,0 +1,18 @@
+.ctrlbp-taxonomy-add,
+.ctrlbp-taxonomy-add-form {
+	margin-top: 6px;
+}
+.ctrlbp-taxonomy-add-button {
+	padding: 0;
+	border: 0;
+	background: none;
+	color: #0073aa;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.ctrlbp-taxonomy-add-button:hover {
+	color: #00a0d2;
+}
+.ctrlbp-taxonomy-add-form.ctrlbp-hidden {
+	display: none;
+}
